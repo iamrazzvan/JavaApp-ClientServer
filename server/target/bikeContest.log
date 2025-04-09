@@ -1,0 +1,712 @@
+08 Apr 2025 13:47:04,686 INFO  com.services.repository.ParticipantDBRepository 19 <init> - Initializing ParticipantDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 13:47:04,693 INFO  com.services.repository.RaceDBRepository 23 <init> - Initializing RaceDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 13:47:04,694 INFO  com.services.repository.RaceEntryDBRepository 28 <init> - Initializing RaceEntryDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 13:47:04,697 INFO  com.services.repository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 13:47:04,699 INFO  com.services.repository.TeamDBRepository 22 <init> - Initializing TeamDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 13:53:31,506 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username a
+08 Apr 2025 13:53:31,507 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 13:53:31,507 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 13:53:31,508 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:bikeContest.sqlite
+08 Apr 2025 13:53:31,508 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 13:53:31,508 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 13:53:31,869 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@17332f36)
+08 Apr 2025 13:53:31,877 ERROR com.services.repository.UserDBRepository 42 getByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+08 Apr 2025 13:53:31,878 TRACE com.services.repository.UserDBRepository 45 getByUsernameAndPassword - Exit with(null)
+08 Apr 2025 13:54:57,484 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username iamrazzvan
+08 Apr 2025 13:54:57,486 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 13:54:57,487 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@17332f36)
+08 Apr 2025 13:54:57,488 ERROR com.services.repository.UserDBRepository 42 getByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+08 Apr 2025 13:54:57,488 TRACE com.services.repository.UserDBRepository 45 getByUsernameAndPassword - Exit with(null)
+08 Apr 2025 13:55:52,737 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username iamrazzvan
+08 Apr 2025 13:55:52,739 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 13:55:52,739 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@17332f36)
+08 Apr 2025 13:55:52,740 ERROR com.services.repository.UserDBRepository 42 getByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+08 Apr 2025 13:55:52,740 TRACE com.services.repository.UserDBRepository 45 getByUsernameAndPassword - Exit with(null)
+08 Apr 2025 14:10:17,575 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username iamrazzvan
+08 Apr 2025 14:10:17,578 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 14:10:17,578 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@17332f36)
+08 Apr 2025 14:10:17,580 ERROR com.services.repository.UserDBRepository 42 getByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+08 Apr 2025 14:10:17,580 TRACE com.services.repository.UserDBRepository 45 getByUsernameAndPassword - Exit with(null)
+08 Apr 2025 14:41:51,420 INFO  com.services.repository.ParticipantDBRepository 19 <init> - Initializing ParticipantDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 14:41:51,423 INFO  com.services.repository.RaceDBRepository 23 <init> - Initializing RaceDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 14:41:51,424 INFO  com.services.repository.RaceEntryDBRepository 28 <init> - Initializing RaceEntryDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 14:41:51,425 INFO  com.services.repository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 14:41:51,427 INFO  com.services.repository.TeamDBRepository 22 <init> - Initializing TeamDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 14:42:35,142 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username iamrazzvan
+08 Apr 2025 14:42:35,143 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 14:42:35,143 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 14:42:35,143 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:bikeContest.sqlite
+08 Apr 2025 14:42:35,143 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 14:42:35,144 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 14:42:35,458 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f2ca53c)
+08 Apr 2025 14:42:35,463 ERROR com.services.repository.UserDBRepository 42 getByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+08 Apr 2025 14:42:35,464 TRACE com.services.repository.UserDBRepository 45 getByUsernameAndPassword - Exit with(null)
+08 Apr 2025 14:54:30,697 INFO  com.services.repository.ParticipantDBRepository 19 <init> - Initializing ParticipantDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 14:54:30,701 INFO  com.services.repository.RaceDBRepository 23 <init> - Initializing RaceDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 14:54:30,701 INFO  com.services.repository.RaceEntryDBRepository 28 <init> - Initializing RaceEntryDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 14:54:30,702 INFO  com.services.repository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 14:54:30,704 INFO  com.services.repository.TeamDBRepository 22 <init> - Initializing TeamDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 14:54:56,770 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username admin
+08 Apr 2025 14:54:56,771 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 14:54:56,771 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 14:54:56,771 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:bikeContest.sqlite
+08 Apr 2025 14:54:56,771 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 14:54:56,771 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 14:54:57,119 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f2ca53c)
+08 Apr 2025 14:54:57,125 ERROR com.services.repository.UserDBRepository 42 getByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+08 Apr 2025 14:54:57,126 TRACE com.services.repository.UserDBRepository 45 getByUsernameAndPassword - Exit with(null)
+08 Apr 2025 15:03:03,836 INFO  com.services.repository.ParticipantDBRepository 19 <init> - Initializing ParticipantDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 15:03:03,840 INFO  com.services.repository.RaceDBRepository 23 <init> - Initializing RaceDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 15:03:03,841 INFO  com.services.repository.RaceEntryDBRepository 28 <init> - Initializing RaceEntryDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 15:03:03,842 INFO  com.services.repository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 15:03:03,842 INFO  com.services.repository.TeamDBRepository 22 <init> - Initializing TeamDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 15:03:28,550 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username admin
+08 Apr 2025 15:03:28,550 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 15:03:28,551 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 15:03:28,551 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:bikeContest.sqlite
+08 Apr 2025 15:03:28,551 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 15:03:28,551 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 15:03:28,872 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f2ca53c)
+08 Apr 2025 15:03:28,878 ERROR com.services.repository.UserDBRepository 42 getByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+08 Apr 2025 15:03:28,879 TRACE com.services.repository.UserDBRepository 45 getByUsernameAndPassword - Exit with(null)
+08 Apr 2025 15:05:39,150 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username admin
+08 Apr 2025 15:05:39,151 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 15:05:39,151 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f2ca53c)
+08 Apr 2025 15:05:39,152 ERROR com.services.repository.UserDBRepository 42 getByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+08 Apr 2025 15:05:39,152 TRACE com.services.repository.UserDBRepository 45 getByUsernameAndPassword - Exit with(null)
+08 Apr 2025 15:18:09,285 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username admin
+08 Apr 2025 15:18:09,286 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 15:18:09,286 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f2ca53c)
+08 Apr 2025 15:18:09,287 ERROR com.services.repository.UserDBRepository 42 getByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+08 Apr 2025 15:18:09,287 TRACE com.services.repository.UserDBRepository 45 getByUsernameAndPassword - Exit with(null)
+08 Apr 2025 15:21:47,687 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username admin
+08 Apr 2025 15:21:47,688 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 15:21:47,688 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f2ca53c)
+08 Apr 2025 15:21:47,689 ERROR com.services.repository.UserDBRepository 42 getByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+08 Apr 2025 15:21:47,689 TRACE com.services.repository.UserDBRepository 45 getByUsernameAndPassword - Exit with(null)
+08 Apr 2025 15:23:11,325 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username admin
+08 Apr 2025 15:23:11,326 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 15:23:11,326 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f2ca53c)
+08 Apr 2025 15:23:11,327 ERROR com.services.repository.UserDBRepository 42 getByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+08 Apr 2025 15:23:11,327 TRACE com.services.repository.UserDBRepository 45 getByUsernameAndPassword - Exit with(null)
+08 Apr 2025 15:27:01,725 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username admin
+08 Apr 2025 15:27:01,726 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 15:27:01,726 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f2ca53c)
+08 Apr 2025 15:27:01,726 ERROR com.services.repository.UserDBRepository 42 getByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+08 Apr 2025 15:27:01,727 TRACE com.services.repository.UserDBRepository 45 getByUsernameAndPassword - Exit with(null)
+08 Apr 2025 17:54:59,203 INFO  com.services.repository.ParticipantDBRepository 19 <init> - Initializing ParticipantDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 17:54:59,208 INFO  com.services.repository.RaceDBRepository 23 <init> - Initializing RaceDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 17:54:59,212 INFO  com.services.repository.RaceEntryDBRepository 28 <init> - Initializing RaceEntryDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 17:54:59,212 INFO  com.services.repository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 17:54:59,212 INFO  com.services.repository.TeamDBRepository 22 <init> - Initializing TeamDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 17:55:30,720 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username admin
+08 Apr 2025 17:55:30,720 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 17:55:30,721 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 17:55:30,721 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:bikeContest.sqlite
+08 Apr 2025 17:55:30,721 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 17:55:30,721 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 17:55:30,922 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f2ca53c)
+08 Apr 2025 17:55:30,926 ERROR com.services.repository.UserDBRepository 42 getByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+08 Apr 2025 17:55:30,927 TRACE com.services.repository.UserDBRepository 45 getByUsernameAndPassword - Exit with(null)
+08 Apr 2025 17:55:35,880 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username admin
+08 Apr 2025 17:55:35,881 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 17:55:35,882 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f2ca53c)
+08 Apr 2025 17:55:35,883 ERROR com.services.repository.UserDBRepository 42 getByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+08 Apr 2025 17:55:35,883 TRACE com.services.repository.UserDBRepository 45 getByUsernameAndPassword - Exit with(null)
+08 Apr 2025 17:57:01,346 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username admin
+08 Apr 2025 17:57:01,347 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 17:57:01,348 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f2ca53c)
+08 Apr 2025 17:57:01,348 ERROR com.services.repository.UserDBRepository 42 getByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+08 Apr 2025 17:57:01,348 TRACE com.services.repository.UserDBRepository 45 getByUsernameAndPassword - Exit with(null)
+08 Apr 2025 18:00:37,507 INFO  com.services.repository.ParticipantDBRepository 19 <init> - Initializing ParticipantDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:Users/Razva/Downloads/lab06/bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:00:37,513 INFO  com.services.repository.RaceDBRepository 23 <init> - Initializing RaceDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:Users/Razva/Downloads/lab06/bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:00:37,514 INFO  com.services.repository.RaceEntryDBRepository 28 <init> - Initializing RaceEntryDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:Users/Razva/Downloads/lab06/bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:00:37,515 INFO  com.services.repository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:Users/Razva/Downloads/lab06/bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:00:37,517 INFO  com.services.repository.TeamDBRepository 22 <init> - Initializing TeamDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:Users/Razva/Downloads/lab06/bikeContest.sqlite, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:01:28,173 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username admin
+08 Apr 2025 18:01:28,175 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:01:28,176 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:01:28,176 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:Users/Razva/Downloads/lab06/bikeContest.sqlite
+08 Apr 2025 18:01:28,177 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:01:28,178 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:01:28,240 ERROR com.services.utils.JDBCUtils 51 getNewConnection - java.sql.SQLException: path to 'Users/Razva/Downloads/lab06/bikeContest.sqlite': 'C:\Users\Razva\Downloads\lab06\server\Users' does not exist
+08 Apr 2025 18:01:28,243 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit
+08 Apr 2025 18:11:38,722 INFO  com.services.repository.ParticipantDBRepository 19 <init> - Initializing ParticipantDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:11:38,729 INFO  com.services.repository.RaceDBRepository 23 <init> - Initializing RaceDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:11:38,731 INFO  com.services.repository.RaceEntryDBRepository 28 <init> - Initializing RaceEntryDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:11:38,734 INFO  com.services.repository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:11:38,735 INFO  com.services.repository.TeamDBRepository 22 <init> - Initializing TeamDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:14:12,416 INFO  com.services.repository.ParticipantDBRepository 19 <init> - Initializing ParticipantDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:14:12,422 INFO  com.services.repository.RaceDBRepository 23 <init> - Initializing RaceDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:14:12,423 INFO  com.services.repository.RaceEntryDBRepository 28 <init> - Initializing RaceEntryDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:14:12,424 INFO  com.services.repository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:14:12,426 INFO  com.services.repository.TeamDBRepository 22 <init> - Initializing TeamDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:14:52,927 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username admin
+08 Apr 2025 18:14:52,929 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:14:52,930 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:14:52,930 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:14:52,931 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:14:52,931 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:14:53,497 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f2ca53c)
+08 Apr 2025 18:14:53,521 TRACE com.services.repository.UserDBRepository 37 getByUsernameAndPassword - Exit with(username=admin: Administrator)
+08 Apr 2025 18:14:54,553 TRACE com.services.repository.TeamDBRepository 72 findAll - Enter
+08 Apr 2025 18:14:54,554 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:14:54,554 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:14:54,555 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:14:54,556 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:14:54,556 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:14:54,559 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a94d27d)
+08 Apr 2025 18:14:54,563 TRACE com.services.repository.TeamDBRepository 87 findAll - Exit with([])
+08 Apr 2025 18:14:55,585 TRACE com.services.repository.ParticipantDBRepository 91 findAll - Enter
+08 Apr 2025 18:14:55,586 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:14:55,587 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:14:55,587 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:14:55,588 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:14:55,590 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:14:55,593 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@47428619)
+08 Apr 2025 18:14:55,595 TRACE com.services.repository.ParticipantDBRepository 106 findAll - Exit with([])
+08 Apr 2025 18:14:56,610 TRACE com.services.repository.RaceDBRepository 96 findAll - Enter
+08 Apr 2025 18:14:56,611 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:14:56,611 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:14:56,612 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:14:56,613 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:14:56,614 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:14:56,615 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@405b55e1)
+08 Apr 2025 18:14:56,617 TRACE com.services.repository.RaceDBRepository 111 findAll - Exit with([])
+08 Apr 2025 18:15:16,660 TRACE com.services.repository.TeamDBRepository 72 findAll - Enter
+08 Apr 2025 18:15:16,661 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:15:16,661 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a94d27d)
+08 Apr 2025 18:15:16,663 TRACE com.services.repository.TeamDBRepository 87 findAll - Exit with([])
+08 Apr 2025 18:16:25,024 INFO  com.services.repository.ParticipantDBRepository 19 <init> - Initializing ParticipantDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:16:25,030 INFO  com.services.repository.RaceDBRepository 23 <init> - Initializing RaceDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:16:25,032 INFO  com.services.repository.RaceEntryDBRepository 28 <init> - Initializing RaceEntryDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:16:25,033 INFO  com.services.repository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:16:25,035 INFO  com.services.repository.TeamDBRepository 22 <init> - Initializing TeamDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:16:49,317 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username admin
+08 Apr 2025 18:16:49,319 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:16:49,319 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:16:49,320 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:16:49,321 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:16:49,321 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:16:49,867 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f2ca53c)
+08 Apr 2025 18:16:49,891 TRACE com.services.repository.UserDBRepository 37 getByUsernameAndPassword - Exit with(username=admin: Administrator)
+08 Apr 2025 18:16:50,920 TRACE com.services.repository.TeamDBRepository 72 findAll - Enter
+08 Apr 2025 18:16:50,920 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:16:50,921 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:16:50,922 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:16:50,923 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:16:50,925 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:16:50,927 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a94d27d)
+08 Apr 2025 18:16:50,929 TRACE com.services.repository.TeamDBRepository 87 findAll - Exit with([Yamaha, Kawasaki, KTM])
+08 Apr 2025 18:16:51,950 TRACE com.services.repository.ParticipantDBRepository 91 findAll - Enter
+08 Apr 2025 18:16:51,951 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:16:51,951 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:16:51,952 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:16:51,952 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:16:51,953 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:16:51,956 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@762dcaec)
+08 Apr 2025 18:16:51,960 TRACE com.services.repository.ParticipantDBRepository 106 findAll - Exit with([])
+08 Apr 2025 18:16:52,976 TRACE com.services.repository.RaceDBRepository 96 findAll - Enter
+08 Apr 2025 18:16:52,977 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:16:52,978 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:16:52,978 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:16:52,979 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:16:52,979 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:16:52,981 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ee2fe70)
+08 Apr 2025 18:16:52,983 TRACE com.services.repository.RaceDBRepository 111 findAll - Exit with([])
+08 Apr 2025 18:16:55,457 TRACE com.services.repository.TeamDBRepository 72 findAll - Enter
+08 Apr 2025 18:16:55,457 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:16:55,458 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a94d27d)
+08 Apr 2025 18:16:55,459 TRACE com.services.repository.TeamDBRepository 87 findAll - Exit with([Yamaha, Kawasaki, KTM])
+08 Apr 2025 18:17:09,801 TRACE com.services.repository.ParticipantDBRepository 112 save - Enter saving task Darius Puscas
+08 Apr 2025 18:17:09,801 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:09,802 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@762dcaec)
+08 Apr 2025 18:17:09,830 TRACE com.services.repository.ParticipantDBRepository 119 save - Saved 1 instances
+08 Apr 2025 18:17:10,837 TRACE com.services.repository.TeamDBRepository 72 findAll - Enter
+08 Apr 2025 18:17:10,839 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:10,839 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a94d27d)
+08 Apr 2025 18:17:10,841 TRACE com.services.repository.TeamDBRepository 87 findAll - Exit with([Yamaha, Kawasaki, KTM])
+08 Apr 2025 18:17:11,854 TRACE com.services.repository.ParticipantDBRepository 91 findAll - Enter
+08 Apr 2025 18:17:11,855 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:11,856 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@762dcaec)
+08 Apr 2025 18:17:11,860 TRACE com.services.repository.ParticipantDBRepository 106 findAll - Exit with([Darius Puscas])
+08 Apr 2025 18:17:12,866 TRACE com.services.repository.RaceDBRepository 96 findAll - Enter
+08 Apr 2025 18:17:12,867 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:12,867 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ee2fe70)
+08 Apr 2025 18:17:12,868 TRACE com.services.repository.RaceDBRepository 111 findAll - Exit with([])
+08 Apr 2025 18:17:27,092 TRACE com.services.repository.RaceDBRepository 117 save - Enter saving task Doha
+08 Apr 2025 18:17:27,092 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:27,093 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ee2fe70)
+08 Apr 2025 18:17:27,125 TRACE com.services.repository.RaceDBRepository 124 save - Exit: Saved 1 instances
+08 Apr 2025 18:17:27,125 TRACE com.services.repository.RaceDBRepository 29 getRaceByName - Enter getRaceByName with task Doha
+08 Apr 2025 18:17:27,126 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:27,126 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ee2fe70)
+08 Apr 2025 18:17:27,127 TRACE com.services.repository.RaceDBRepository 38 getRaceByName - Exit with(Doha)
+08 Apr 2025 18:17:27,131 TRACE com.services.repository.RaceEntryDBRepository 35 getEntriesByRace - Enter getEntriesByRace with task of id=0
+08 Apr 2025 18:17:27,132 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:27,132 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:17:27,131 TRACE com.services.repository.RaceEntryDBRepository 35 getEntriesByRace - Enter getEntriesByRace with task of id=1
+08 Apr 2025 18:17:27,132 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:17:27,132 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:17:27,132 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:17:27,133 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:27,133 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:17:27,134 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:17:27,134 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:17:27,134 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:17:27,136 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@454eaba4)
+08 Apr 2025 18:17:27,136 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54c8097c)
+08 Apr 2025 18:17:27,138 TRACE com.services.repository.RaceEntryDBRepository 51 getEntriesByRace - Exit with([])
+08 Apr 2025 18:17:27,138 TRACE com.services.repository.RaceEntryDBRepository 51 getEntriesByRace - Exit with([])
+08 Apr 2025 18:17:28,143 TRACE com.services.repository.TeamDBRepository 72 findAll - Enter
+08 Apr 2025 18:17:28,144 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:28,144 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a94d27d)
+08 Apr 2025 18:17:28,146 TRACE com.services.repository.TeamDBRepository 87 findAll - Exit with([Yamaha, Kawasaki, KTM])
+08 Apr 2025 18:17:29,162 TRACE com.services.repository.ParticipantDBRepository 91 findAll - Enter
+08 Apr 2025 18:17:29,162 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:29,163 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@762dcaec)
+08 Apr 2025 18:17:29,165 TRACE com.services.repository.ParticipantDBRepository 106 findAll - Exit with([Darius Puscas])
+08 Apr 2025 18:17:30,175 TRACE com.services.repository.RaceDBRepository 96 findAll - Enter
+08 Apr 2025 18:17:30,176 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:30,177 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ee2fe70)
+08 Apr 2025 18:17:30,178 TRACE com.services.repository.RaceDBRepository 111 findAll - Exit with([Doha])
+08 Apr 2025 18:17:30,178 TRACE com.services.repository.RaceEntryDBRepository 35 getEntriesByRace - Enter getEntriesByRace with task of id=1
+08 Apr 2025 18:17:30,179 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:30,179 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54c8097c)
+08 Apr 2025 18:17:30,181 TRACE com.services.repository.RaceEntryDBRepository 51 getEntriesByRace - Exit with([])
+08 Apr 2025 18:17:33,023 TRACE com.services.repository.ParticipantDBRepository 91 findAll - Enter
+08 Apr 2025 18:17:33,024 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:33,024 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@762dcaec)
+08 Apr 2025 18:17:33,025 TRACE com.services.repository.ParticipantDBRepository 106 findAll - Exit with([Darius Puscas])
+08 Apr 2025 18:17:34,039 TRACE com.services.repository.RaceEntryDBRepository 73 getRacesWhereNotRegisteredAndEngineCapacity - Enter getRacesWhereNotRegistered with tasks 1, 250
+08 Apr 2025 18:17:34,039 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:34,040 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54c8097c)
+08 Apr 2025 18:17:34,041 TRACE com.services.repository.RaceEntryDBRepository 92 getRacesWhereNotRegisteredAndEngineCapacity - Exit with([Doha])
+08 Apr 2025 18:17:38,237 TRACE com.services.repository.RaceEntryDBRepository 141 save - Enter updating with task Darius Puscas registered for 'Doha 250cc'
+08 Apr 2025 18:17:38,238 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:38,238 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54c8097c)
+08 Apr 2025 18:17:38,266 TRACE com.services.repository.RaceEntryDBRepository 148 save - Exit: Updated 1 instances
+08 Apr 2025 18:17:38,269 TRACE com.services.repository.RaceDBRepository 96 findAll - Enter
+08 Apr 2025 18:17:38,269 TRACE com.services.repository.RaceDBRepository 96 findAll - Enter
+08 Apr 2025 18:17:38,269 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:38,270 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ee2fe70)
+08 Apr 2025 18:17:38,270 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:38,271 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ee2fe70)
+08 Apr 2025 18:17:38,271 TRACE com.services.repository.RaceDBRepository 111 findAll - Exit with([Doha])
+08 Apr 2025 18:17:38,271 TRACE com.services.repository.RaceDBRepository 111 findAll - Exit with([Doha])
+08 Apr 2025 18:17:38,271 TRACE com.services.repository.RaceEntryDBRepository 35 getEntriesByRace - Enter getEntriesByRace with task of id=1
+08 Apr 2025 18:17:38,272 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:38,272 TRACE com.services.repository.RaceEntryDBRepository 35 getEntriesByRace - Enter getEntriesByRace with task of id=1
+08 Apr 2025 18:17:38,272 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54c8097c)
+08 Apr 2025 18:17:38,272 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:38,272 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54c8097c)
+08 Apr 2025 18:17:38,273 TRACE com.services.repository.RaceDBRepository 74 findById - Enter
+08 Apr 2025 18:17:38,273 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:38,273 TRACE com.services.repository.RaceDBRepository 74 findById - Enter
+08 Apr 2025 18:17:38,273 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ee2fe70)
+08 Apr 2025 18:17:38,274 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:38,274 TRACE com.services.repository.RaceDBRepository 82 findById - Exit with(Doha)
+08 Apr 2025 18:17:38,274 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ee2fe70)
+08 Apr 2025 18:17:38,274 TRACE com.services.repository.ParticipantDBRepository 69 findById - Enter
+08 Apr 2025 18:17:38,274 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:38,275 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@762dcaec)
+08 Apr 2025 18:17:38,275 TRACE com.services.repository.RaceDBRepository 82 findById - Exit with(Doha)
+08 Apr 2025 18:17:38,276 TRACE com.services.repository.ParticipantDBRepository 69 findById - Enter
+08 Apr 2025 18:17:38,276 TRACE com.services.repository.ParticipantDBRepository 77 findById - Exit with(Darius Puscas)
+08 Apr 2025 18:17:38,276 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:38,276 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@762dcaec)
+08 Apr 2025 18:17:38,276 TRACE com.services.repository.RaceEntryDBRepository 51 getEntriesByRace - Exit with([Darius Puscas registered for 'Doha 250cc'])
+08 Apr 2025 18:17:38,278 TRACE com.services.repository.ParticipantDBRepository 77 findById - Exit with(Darius Puscas)
+08 Apr 2025 18:17:38,278 TRACE com.services.repository.RaceEntryDBRepository 51 getEntriesByRace - Exit with([Darius Puscas registered for 'Doha 250cc'])
+08 Apr 2025 18:17:39,290 TRACE com.services.repository.TeamDBRepository 72 findAll - Enter
+08 Apr 2025 18:17:39,291 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:39,292 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a94d27d)
+08 Apr 2025 18:17:39,293 TRACE com.services.repository.TeamDBRepository 87 findAll - Exit with([Yamaha, Kawasaki, KTM])
+08 Apr 2025 18:17:40,301 TRACE com.services.repository.ParticipantDBRepository 91 findAll - Enter
+08 Apr 2025 18:17:40,303 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:40,304 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@762dcaec)
+08 Apr 2025 18:17:40,305 TRACE com.services.repository.ParticipantDBRepository 106 findAll - Exit with([Darius Puscas])
+08 Apr 2025 18:17:41,312 TRACE com.services.repository.RaceDBRepository 96 findAll - Enter
+08 Apr 2025 18:17:41,312 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:41,312 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ee2fe70)
+08 Apr 2025 18:17:41,313 TRACE com.services.repository.RaceDBRepository 111 findAll - Exit with([Doha])
+08 Apr 2025 18:17:41,313 TRACE com.services.repository.RaceEntryDBRepository 35 getEntriesByRace - Enter getEntriesByRace with task of id=1
+08 Apr 2025 18:17:41,314 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:41,315 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54c8097c)
+08 Apr 2025 18:17:41,316 TRACE com.services.repository.RaceDBRepository 74 findById - Enter
+08 Apr 2025 18:17:41,316 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:41,316 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ee2fe70)
+08 Apr 2025 18:17:41,317 TRACE com.services.repository.RaceDBRepository 82 findById - Exit with(Doha)
+08 Apr 2025 18:17:41,318 TRACE com.services.repository.ParticipantDBRepository 69 findById - Enter
+08 Apr 2025 18:17:41,318 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:41,319 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@762dcaec)
+08 Apr 2025 18:17:41,320 TRACE com.services.repository.ParticipantDBRepository 77 findById - Exit with(Darius Puscas)
+08 Apr 2025 18:17:41,321 TRACE com.services.repository.RaceEntryDBRepository 51 getEntriesByRace - Exit with([Darius Puscas registered for 'Doha 250cc'])
+08 Apr 2025 18:17:53,774 TRACE com.services.repository.ParticipantDBRepository 25 getParticipantsByTeam - Enter getParticipantsByTeam with task 2
+08 Apr 2025 18:17:53,775 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:53,775 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@762dcaec)
+08 Apr 2025 18:17:53,776 TRACE com.services.repository.ParticipantDBRepository 41 getParticipantsByTeam - Exit with([Darius Puscas])
+08 Apr 2025 18:17:55,535 TRACE com.services.repository.ParticipantDBRepository 25 getParticipantsByTeam - Enter getParticipantsByTeam with task 3
+08 Apr 2025 18:17:55,535 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:55,536 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@762dcaec)
+08 Apr 2025 18:17:55,537 TRACE com.services.repository.ParticipantDBRepository 41 getParticipantsByTeam - Exit with([])
+08 Apr 2025 18:17:57,094 TRACE com.services.repository.ParticipantDBRepository 25 getParticipantsByTeam - Enter getParticipantsByTeam with task 2
+08 Apr 2025 18:17:57,094 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:17:57,095 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@762dcaec)
+08 Apr 2025 18:17:57,097 TRACE com.services.repository.ParticipantDBRepository 41 getParticipantsByTeam - Exit with([Darius Puscas])
+08 Apr 2025 18:19:58,427 INFO  com.services.repository.ParticipantDBRepository 19 <init> - Initializing ParticipantDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:19:58,432 INFO  com.services.repository.RaceDBRepository 23 <init> - Initializing RaceDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:19:58,434 INFO  com.services.repository.RaceEntryDBRepository 28 <init> - Initializing RaceEntryDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:19:58,435 INFO  com.services.repository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:19:58,437 INFO  com.services.repository.TeamDBRepository 22 <init> - Initializing TeamDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:30:29,201 INFO  com.services.repository.ParticipantDBRepository 19 <init> - Initializing ParticipantDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:30:29,207 INFO  com.services.repository.RaceDBRepository 23 <init> - Initializing RaceDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:30:29,208 INFO  com.services.repository.RaceEntryDBRepository 28 <init> - Initializing RaceEntryDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:30:29,209 INFO  com.services.repository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:30:29,211 INFO  com.services.repository.TeamDBRepository 22 <init> - Initializing TeamDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:31:16,720 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username admin
+08 Apr 2025 18:31:16,722 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:31:16,723 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:31:16,723 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:31:16,724 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:31:16,725 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:31:17,289 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f2ca53c)
+08 Apr 2025 18:31:17,312 TRACE com.services.repository.UserDBRepository 37 getByUsernameAndPassword - Exit with(username=admin: Administrator)
+08 Apr 2025 18:31:18,347 TRACE com.services.repository.TeamDBRepository 72 findAll - Enter
+08 Apr 2025 18:31:18,348 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:31:18,349 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:31:18,349 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:31:18,350 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:31:18,351 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:31:18,353 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a94d27d)
+08 Apr 2025 18:31:18,356 TRACE com.services.repository.TeamDBRepository 87 findAll - Exit with([Yamaha, Kawasaki, KTM])
+08 Apr 2025 18:31:19,379 TRACE com.services.repository.ParticipantDBRepository 91 findAll - Enter
+08 Apr 2025 18:31:19,380 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:31:19,381 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:31:19,381 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:31:19,382 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:31:19,383 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:31:19,386 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@762dcaec)
+08 Apr 2025 18:31:19,390 TRACE com.services.repository.ParticipantDBRepository 106 findAll - Exit with([Darius Puscas])
+08 Apr 2025 18:31:20,403 TRACE com.services.repository.RaceDBRepository 96 findAll - Enter
+08 Apr 2025 18:31:20,404 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:31:20,404 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:31:20,405 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:31:20,405 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:31:20,406 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:31:20,408 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@204eceea)
+08 Apr 2025 18:31:20,410 TRACE com.services.repository.RaceDBRepository 111 findAll - Exit with([Doha])
+08 Apr 2025 18:31:20,411 TRACE com.services.repository.RaceEntryDBRepository 35 getEntriesByRace - Enter getEntriesByRace with task of id=1
+08 Apr 2025 18:31:20,412 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:31:20,413 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:31:20,414 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:31:20,415 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:31:20,415 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:31:20,418 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c00bbc)
+08 Apr 2025 18:31:20,420 TRACE com.services.repository.RaceDBRepository 74 findById - Enter
+08 Apr 2025 18:31:20,421 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:31:20,421 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@204eceea)
+08 Apr 2025 18:31:20,423 TRACE com.services.repository.RaceDBRepository 82 findById - Exit with(Doha)
+08 Apr 2025 18:31:20,423 TRACE com.services.repository.ParticipantDBRepository 69 findById - Enter
+08 Apr 2025 18:31:20,423 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:31:20,424 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@762dcaec)
+08 Apr 2025 18:31:20,425 TRACE com.services.repository.ParticipantDBRepository 77 findById - Exit with(Darius Puscas)
+08 Apr 2025 18:31:20,437 TRACE com.services.repository.RaceEntryDBRepository 51 getEntriesByRace - Exit with([Darius Puscas registered for 'Doha 250cc'])
+08 Apr 2025 18:31:29,059 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username admin
+08 Apr 2025 18:31:29,061 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:31:29,061 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f2ca53c)
+08 Apr 2025 18:31:29,062 TRACE com.services.repository.UserDBRepository 37 getByUsernameAndPassword - Exit with(username=admin: Administrator)
+08 Apr 2025 18:32:18,004 INFO  com.services.repository.ParticipantDBRepository 19 <init> - Initializing ParticipantDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:32:18,011 INFO  com.services.repository.RaceDBRepository 23 <init> - Initializing RaceDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:32:18,012 INFO  com.services.repository.RaceEntryDBRepository 28 <init> - Initializing RaceEntryDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:32:18,012 INFO  com.services.repository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:32:18,016 INFO  com.services.repository.TeamDBRepository 22 <init> - Initializing TeamDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC}
+08 Apr 2025 18:34:04,802 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username admin
+08 Apr 2025 18:34:04,804 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:34:04,805 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:34:04,805 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:34:04,806 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:34:04,806 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:34:05,339 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3fc3ef8f)
+08 Apr 2025 18:34:05,364 TRACE com.services.repository.UserDBRepository 37 getByUsernameAndPassword - Exit with(username=admin: Administrator)
+08 Apr 2025 18:34:06,394 TRACE com.services.repository.TeamDBRepository 72 findAll - Enter
+08 Apr 2025 18:34:06,395 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:34:06,395 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:34:06,396 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:34:06,398 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:34:06,399 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:34:06,401 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7966d03e)
+08 Apr 2025 18:34:06,404 TRACE com.services.repository.TeamDBRepository 87 findAll - Exit with([Yamaha, Kawasaki, KTM])
+08 Apr 2025 18:34:07,417 TRACE com.services.repository.ParticipantDBRepository 91 findAll - Enter
+08 Apr 2025 18:34:07,418 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:34:07,419 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:34:07,419 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:34:07,420 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:34:07,421 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:34:07,424 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b0a21cb)
+08 Apr 2025 18:34:07,430 TRACE com.services.repository.ParticipantDBRepository 106 findAll - Exit with([Darius Puscas])
+08 Apr 2025 18:34:08,446 TRACE com.services.repository.RaceDBRepository 96 findAll - Enter
+08 Apr 2025 18:34:08,447 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:34:08,448 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:34:08,448 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:34:08,449 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:34:08,449 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:34:08,451 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45011d2)
+08 Apr 2025 18:34:08,453 TRACE com.services.repository.RaceDBRepository 111 findAll - Exit with([Doha])
+08 Apr 2025 18:34:08,454 TRACE com.services.repository.RaceEntryDBRepository 35 getEntriesByRace - Enter getEntriesByRace with task of id=1
+08 Apr 2025 18:34:08,454 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:34:08,455 TRACE com.services.utils.JDBCUtils 35 getNewConnection - Enter
+08 Apr 2025 18:34:08,455 INFO  com.services.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db
+08 Apr 2025 18:34:08,455 INFO  com.services.utils.JDBCUtils 42 getNewConnection - user: null
+08 Apr 2025 18:34:08,456 INFO  com.services.utils.JDBCUtils 43 getNewConnection - pass: null
+08 Apr 2025 18:34:08,459 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29d65245)
+08 Apr 2025 18:34:08,461 TRACE com.services.repository.RaceDBRepository 74 findById - Enter
+08 Apr 2025 18:34:08,462 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:34:08,463 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45011d2)
+08 Apr 2025 18:34:08,463 TRACE com.services.repository.RaceDBRepository 82 findById - Exit with(Doha)
+08 Apr 2025 18:34:08,464 TRACE com.services.repository.ParticipantDBRepository 69 findById - Enter
+08 Apr 2025 18:34:08,465 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:34:08,465 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b0a21cb)
+08 Apr 2025 18:34:08,467 TRACE com.services.repository.ParticipantDBRepository 77 findById - Exit with(Darius Puscas)
+08 Apr 2025 18:34:08,482 TRACE com.services.repository.RaceEntryDBRepository 51 getEntriesByRace - Exit with([Darius Puscas registered for 'Doha 250cc'])
+08 Apr 2025 18:34:44,938 TRACE com.services.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username iamrazzvan
+08 Apr 2025 18:34:44,939 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:34:44,939 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3fc3ef8f)
+08 Apr 2025 18:34:44,940 TRACE com.services.repository.UserDBRepository 37 getByUsernameAndPassword - Exit with(username=iamrazzvan: Razvan Racovita)
+08 Apr 2025 18:34:45,951 TRACE com.services.repository.TeamDBRepository 72 findAll - Enter
+08 Apr 2025 18:34:45,951 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:34:45,952 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7966d03e)
+08 Apr 2025 18:34:45,953 TRACE com.services.repository.TeamDBRepository 87 findAll - Exit with([Yamaha, Kawasaki, KTM])
+08 Apr 2025 18:34:46,966 TRACE com.services.repository.ParticipantDBRepository 91 findAll - Enter
+08 Apr 2025 18:34:46,967 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:34:46,968 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b0a21cb)
+08 Apr 2025 18:34:46,969 TRACE com.services.repository.ParticipantDBRepository 106 findAll - Exit with([Darius Puscas])
+08 Apr 2025 18:34:47,975 TRACE com.services.repository.RaceDBRepository 96 findAll - Enter
+08 Apr 2025 18:34:47,976 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:34:47,976 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45011d2)
+08 Apr 2025 18:34:47,978 TRACE com.services.repository.RaceDBRepository 111 findAll - Exit with([Doha])
+08 Apr 2025 18:34:47,978 TRACE com.services.repository.RaceEntryDBRepository 35 getEntriesByRace - Enter getEntriesByRace with task of id=1
+08 Apr 2025 18:34:47,979 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:34:47,979 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29d65245)
+08 Apr 2025 18:34:47,981 TRACE com.services.repository.RaceDBRepository 74 findById - Enter
+08 Apr 2025 18:34:47,981 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:34:47,981 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45011d2)
+08 Apr 2025 18:34:47,982 TRACE com.services.repository.RaceDBRepository 82 findById - Exit with(Doha)
+08 Apr 2025 18:34:47,982 TRACE com.services.repository.ParticipantDBRepository 69 findById - Enter
+08 Apr 2025 18:34:47,983 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:34:47,983 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b0a21cb)
+08 Apr 2025 18:34:47,984 TRACE com.services.repository.ParticipantDBRepository 77 findById - Exit with(Darius Puscas)
+08 Apr 2025 18:34:47,985 TRACE com.services.repository.RaceEntryDBRepository 51 getEntriesByRace - Exit with([Darius Puscas registered for 'Doha 250cc'])
+08 Apr 2025 18:35:17,506 TRACE com.services.repository.TeamDBRepository 72 findAll - Enter
+08 Apr 2025 18:35:17,506 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:17,507 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7966d03e)
+08 Apr 2025 18:35:17,508 TRACE com.services.repository.TeamDBRepository 87 findAll - Exit with([Yamaha, Kawasaki, KTM])
+08 Apr 2025 18:35:46,714 TRACE com.services.repository.ParticipantDBRepository 112 save - Enter saving task Octavian Custura
+08 Apr 2025 18:35:46,715 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:46,715 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b0a21cb)
+08 Apr 2025 18:35:46,747 TRACE com.services.repository.ParticipantDBRepository 119 save - Saved 1 instances
+08 Apr 2025 18:35:47,758 TRACE com.services.repository.TeamDBRepository 72 findAll - Enter
+08 Apr 2025 18:35:47,759 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:47,759 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7966d03e)
+08 Apr 2025 18:35:47,761 TRACE com.services.repository.TeamDBRepository 87 findAll - Exit with([Yamaha, Kawasaki, KTM])
+08 Apr 2025 18:35:48,772 TRACE com.services.repository.ParticipantDBRepository 91 findAll - Enter
+08 Apr 2025 18:35:48,772 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:48,773 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b0a21cb)
+08 Apr 2025 18:35:48,774 TRACE com.services.repository.ParticipantDBRepository 106 findAll - Exit with([Darius Puscas, Octavian Custura])
+08 Apr 2025 18:35:49,785 TRACE com.services.repository.RaceDBRepository 96 findAll - Enter
+08 Apr 2025 18:35:49,785 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:49,786 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45011d2)
+08 Apr 2025 18:35:49,787 TRACE com.services.repository.RaceDBRepository 111 findAll - Exit with([Doha])
+08 Apr 2025 18:35:49,788 TRACE com.services.repository.RaceEntryDBRepository 35 getEntriesByRace - Enter getEntriesByRace with task of id=1
+08 Apr 2025 18:35:49,788 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:49,788 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29d65245)
+08 Apr 2025 18:35:49,789 TRACE com.services.repository.RaceDBRepository 74 findById - Enter
+08 Apr 2025 18:35:49,791 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:49,791 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45011d2)
+08 Apr 2025 18:35:49,792 TRACE com.services.repository.RaceDBRepository 82 findById - Exit with(Doha)
+08 Apr 2025 18:35:49,792 TRACE com.services.repository.ParticipantDBRepository 69 findById - Enter
+08 Apr 2025 18:35:49,793 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:49,794 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b0a21cb)
+08 Apr 2025 18:35:49,795 TRACE com.services.repository.ParticipantDBRepository 77 findById - Exit with(Darius Puscas)
+08 Apr 2025 18:35:49,796 TRACE com.services.repository.RaceEntryDBRepository 51 getEntriesByRace - Exit with([Darius Puscas registered for 'Doha 250cc'])
+08 Apr 2025 18:35:53,742 TRACE com.services.repository.ParticipantDBRepository 91 findAll - Enter
+08 Apr 2025 18:35:53,743 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:53,743 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b0a21cb)
+08 Apr 2025 18:35:53,744 TRACE com.services.repository.ParticipantDBRepository 106 findAll - Exit with([Darius Puscas, Octavian Custura])
+08 Apr 2025 18:35:54,757 TRACE com.services.repository.RaceEntryDBRepository 73 getRacesWhereNotRegisteredAndEngineCapacity - Enter getRacesWhereNotRegistered with tasks 1, 250
+08 Apr 2025 18:35:54,758 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:54,758 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29d65245)
+08 Apr 2025 18:35:54,760 TRACE com.services.repository.RaceEntryDBRepository 92 getRacesWhereNotRegisteredAndEngineCapacity - Exit with([])
+08 Apr 2025 18:35:57,131 TRACE com.services.repository.RaceEntryDBRepository 73 getRacesWhereNotRegisteredAndEngineCapacity - Enter getRacesWhereNotRegistered with tasks 2, 250
+08 Apr 2025 18:35:57,132 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:57,132 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29d65245)
+08 Apr 2025 18:35:57,134 TRACE com.services.repository.RaceEntryDBRepository 92 getRacesWhereNotRegisteredAndEngineCapacity - Exit with([Doha])
+08 Apr 2025 18:35:59,670 TRACE com.services.repository.RaceEntryDBRepository 141 save - Enter updating with task Octavian Custura registered for 'Doha 250cc'
+08 Apr 2025 18:35:59,671 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:59,671 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29d65245)
+08 Apr 2025 18:35:59,697 TRACE com.services.repository.RaceEntryDBRepository 148 save - Exit: Updated 1 instances
+08 Apr 2025 18:35:59,700 TRACE com.services.repository.RaceDBRepository 96 findAll - Enter
+08 Apr 2025 18:35:59,700 TRACE com.services.repository.RaceDBRepository 96 findAll - Enter
+08 Apr 2025 18:35:59,701 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:59,701 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:59,701 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45011d2)
+08 Apr 2025 18:35:59,700 TRACE com.services.repository.RaceDBRepository 96 findAll - Enter
+08 Apr 2025 18:35:59,701 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45011d2)
+08 Apr 2025 18:35:59,702 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:59,702 TRACE com.services.repository.RaceDBRepository 111 findAll - Exit with([Doha])
+08 Apr 2025 18:35:59,702 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45011d2)
+08 Apr 2025 18:35:59,702 TRACE com.services.repository.RaceDBRepository 111 findAll - Exit with([Doha])
+08 Apr 2025 18:35:59,703 TRACE com.services.repository.RaceEntryDBRepository 35 getEntriesByRace - Enter getEntriesByRace with task of id=1
+08 Apr 2025 18:35:59,703 TRACE com.services.repository.RaceEntryDBRepository 35 getEntriesByRace - Enter getEntriesByRace with task of id=1
+08 Apr 2025 18:35:59,703 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:59,703 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:59,703 TRACE com.services.repository.RaceDBRepository 111 findAll - Exit with([Doha])
+08 Apr 2025 18:35:59,703 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29d65245)
+08 Apr 2025 18:35:59,704 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29d65245)
+08 Apr 2025 18:35:59,704 TRACE com.services.repository.RaceEntryDBRepository 35 getEntriesByRace - Enter getEntriesByRace with task of id=1
+08 Apr 2025 18:35:59,704 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:59,705 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29d65245)
+08 Apr 2025 18:35:59,705 TRACE com.services.repository.RaceDBRepository 74 findById - Enter
+08 Apr 2025 18:35:59,705 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:59,705 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45011d2)
+08 Apr 2025 18:35:59,705 TRACE com.services.repository.RaceDBRepository 74 findById - Enter
+08 Apr 2025 18:35:59,706 TRACE com.services.repository.RaceDBRepository 74 findById - Enter
+08 Apr 2025 18:35:59,706 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:59,706 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:59,706 TRACE com.services.repository.RaceDBRepository 82 findById - Exit with(Doha)
+08 Apr 2025 18:35:59,706 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45011d2)
+08 Apr 2025 18:35:59,706 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45011d2)
+08 Apr 2025 18:35:59,706 TRACE com.services.repository.ParticipantDBRepository 69 findById - Enter
+08 Apr 2025 18:35:59,707 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:59,707 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b0a21cb)
+08 Apr 2025 18:35:59,707 TRACE com.services.repository.ParticipantDBRepository 77 findById - Exit with(Darius Puscas)
+08 Apr 2025 18:35:59,707 TRACE com.services.repository.RaceDBRepository 82 findById - Exit with(Doha)
+08 Apr 2025 18:35:59,707 TRACE com.services.repository.RaceDBRepository 82 findById - Exit with(Doha)
+08 Apr 2025 18:35:59,707 TRACE com.services.repository.RaceDBRepository 74 findById - Enter
+08 Apr 2025 18:35:59,708 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:59,708 TRACE com.services.repository.ParticipantDBRepository 69 findById - Enter
+08 Apr 2025 18:35:59,708 TRACE com.services.repository.ParticipantDBRepository 69 findById - Enter
+08 Apr 2025 18:35:59,708 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45011d2)
+08 Apr 2025 18:35:59,708 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:59,708 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:59,708 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b0a21cb)
+08 Apr 2025 18:35:59,708 TRACE com.services.repository.RaceDBRepository 82 findById - Exit with(Doha)
+08 Apr 2025 18:35:59,708 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b0a21cb)
+08 Apr 2025 18:35:59,708 TRACE com.services.repository.ParticipantDBRepository 69 findById - Enter
+08 Apr 2025 18:35:59,709 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:59,709 TRACE com.services.repository.ParticipantDBRepository 77 findById - Exit with(Darius Puscas)
+08 Apr 2025 18:35:59,709 TRACE com.services.repository.ParticipantDBRepository 77 findById - Exit with(Darius Puscas)
+08 Apr 2025 18:35:59,709 TRACE com.services.repository.RaceDBRepository 74 findById - Enter
+08 Apr 2025 18:35:59,709 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b0a21cb)
+08 Apr 2025 18:35:59,709 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:59,710 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45011d2)
+08 Apr 2025 18:35:59,710 TRACE com.services.repository.RaceDBRepository 74 findById - Enter
+08 Apr 2025 18:35:59,710 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:59,710 TRACE com.services.repository.RaceDBRepository 82 findById - Exit with(Doha)
+08 Apr 2025 18:35:59,710 TRACE com.services.repository.ParticipantDBRepository 77 findById - Exit with(Octavian Custura)
+08 Apr 2025 18:35:59,710 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45011d2)
+08 Apr 2025 18:35:59,710 TRACE com.services.repository.ParticipantDBRepository 69 findById - Enter
+08 Apr 2025 18:35:59,711 TRACE com.services.repository.RaceEntryDBRepository 51 getEntriesByRace - Exit with([Darius Puscas registered for 'Doha 250cc', Octavian Custura registered for 'Doha 250cc'])
+08 Apr 2025 18:35:59,711 TRACE com.services.repository.RaceDBRepository 82 findById - Exit with(Doha)
+08 Apr 2025 18:35:59,711 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:59,711 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b0a21cb)
+08 Apr 2025 18:35:59,711 TRACE com.services.repository.ParticipantDBRepository 69 findById - Enter
+08 Apr 2025 18:35:59,712 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:35:59,712 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b0a21cb)
+08 Apr 2025 18:35:59,712 TRACE com.services.repository.ParticipantDBRepository 77 findById - Exit with(Octavian Custura)
+08 Apr 2025 18:35:59,712 TRACE com.services.repository.RaceEntryDBRepository 51 getEntriesByRace - Exit with([Darius Puscas registered for 'Doha 250cc', Octavian Custura registered for 'Doha 250cc'])
+08 Apr 2025 18:35:59,713 TRACE com.services.repository.ParticipantDBRepository 77 findById - Exit with(Octavian Custura)
+08 Apr 2025 18:35:59,713 TRACE com.services.repository.RaceEntryDBRepository 51 getEntriesByRace - Exit with([Darius Puscas registered for 'Doha 250cc', Octavian Custura registered for 'Doha 250cc'])
+08 Apr 2025 18:36:00,724 TRACE com.services.repository.TeamDBRepository 72 findAll - Enter
+08 Apr 2025 18:36:00,724 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:36:00,725 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7966d03e)
+08 Apr 2025 18:36:00,726 TRACE com.services.repository.TeamDBRepository 87 findAll - Exit with([Yamaha, Kawasaki, KTM])
+08 Apr 2025 18:36:01,739 TRACE com.services.repository.ParticipantDBRepository 91 findAll - Enter
+08 Apr 2025 18:36:01,740 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:36:01,740 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b0a21cb)
+08 Apr 2025 18:36:01,741 TRACE com.services.repository.ParticipantDBRepository 106 findAll - Exit with([Darius Puscas, Octavian Custura])
+08 Apr 2025 18:36:02,747 TRACE com.services.repository.RaceDBRepository 96 findAll - Enter
+08 Apr 2025 18:36:02,748 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:36:02,748 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45011d2)
+08 Apr 2025 18:36:02,749 TRACE com.services.repository.RaceDBRepository 111 findAll - Exit with([Doha])
+08 Apr 2025 18:36:02,750 TRACE com.services.repository.RaceEntryDBRepository 35 getEntriesByRace - Enter getEntriesByRace with task of id=1
+08 Apr 2025 18:36:02,750 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:36:02,750 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29d65245)
+08 Apr 2025 18:36:02,752 TRACE com.services.repository.RaceDBRepository 74 findById - Enter
+08 Apr 2025 18:36:02,752 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:36:02,752 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45011d2)
+08 Apr 2025 18:36:02,753 TRACE com.services.repository.RaceDBRepository 82 findById - Exit with(Doha)
+08 Apr 2025 18:36:02,753 TRACE com.services.repository.ParticipantDBRepository 69 findById - Enter
+08 Apr 2025 18:36:02,754 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:36:02,754 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b0a21cb)
+08 Apr 2025 18:36:02,755 TRACE com.services.repository.ParticipantDBRepository 77 findById - Exit with(Darius Puscas)
+08 Apr 2025 18:36:02,756 TRACE com.services.repository.RaceDBRepository 74 findById - Enter
+08 Apr 2025 18:36:02,756 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:36:02,757 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@45011d2)
+08 Apr 2025 18:36:02,758 TRACE com.services.repository.RaceDBRepository 82 findById - Exit with(Doha)
+08 Apr 2025 18:36:02,758 TRACE com.services.repository.ParticipantDBRepository 69 findById - Enter
+08 Apr 2025 18:36:02,758 TRACE com.services.utils.JDBCUtils 21 getConnection - Enter
+08 Apr 2025 18:36:02,758 TRACE com.services.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b0a21cb)
+08 Apr 2025 18:36:02,759 TRACE com.services.repository.ParticipantDBRepository 77 findById - Exit with(Octavian Custura)
+08 Apr 2025 18:36:02,760 TRACE com.services.repository.RaceEntryDBRepository 51 getEntriesByRace - Exit with([Darius Puscas registered for 'Doha 250cc', Octavian Custura registered for 'Doha 250cc'])
+09 Apr 2025 20:19:15,015 INFO  com.persistence.repository.ParticipantDBRepository 19 <init> - Initializing ParticipantDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC} 
+09 Apr 2025 20:19:15,019 INFO  com.persistence.repository.RaceDBRepository 22 <init> - Initializing RaceDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC} 
+09 Apr 2025 20:19:15,023 INFO  com.persistence.repository.RaceEntryDBRepository 28 <init> - Initializing RaceEntryDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC} 
+09 Apr 2025 20:19:15,025 INFO  com.persistence.repository.UserDBRepository 22 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC} 
+09 Apr 2025 20:19:15,025 INFO  com.persistence.repository.TeamDBRepository 22 <init> - Initializing TeamDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, jdbc.driver=org.sqlite.JDBC} 
+09 Apr 2025 20:20:31,752 TRACE com.persistence.repository.UserDBRepository 28 getByUsernameAndPassword - Enter getByUsernameAndPassword with username admin 
+09 Apr 2025 20:20:31,755 TRACE com.persistence.utils.JDBCUtils 21 getConnection - Enter
+09 Apr 2025 20:20:31,755 TRACE com.persistence.utils.JDBCUtils 35 getNewConnection - Enter
+09 Apr 2025 20:20:31,756 INFO  com.persistence.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db 
+09 Apr 2025 20:20:31,757 INFO  com.persistence.utils.JDBCUtils 42 getNewConnection - user: null 
+09 Apr 2025 20:20:31,758 INFO  com.persistence.utils.JDBCUtils 43 getNewConnection - pass: null 
+09 Apr 2025 20:20:32,295 TRACE com.persistence.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6cd72e78)
+09 Apr 2025 20:20:32,318 TRACE com.persistence.repository.UserDBRepository 37 getByUsernameAndPassword - Exit with(username=admin: Administrator)
+09 Apr 2025 20:20:33,353 TRACE com.persistence.repository.TeamDBRepository 72 findAll - Enter
+09 Apr 2025 20:20:33,354 TRACE com.persistence.utils.JDBCUtils 21 getConnection - Enter
+09 Apr 2025 20:20:33,355 TRACE com.persistence.utils.JDBCUtils 35 getNewConnection - Enter
+09 Apr 2025 20:20:33,356 INFO  com.persistence.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db 
+09 Apr 2025 20:20:33,357 INFO  com.persistence.utils.JDBCUtils 42 getNewConnection - user: null 
+09 Apr 2025 20:20:33,358 INFO  com.persistence.utils.JDBCUtils 43 getNewConnection - pass: null 
+09 Apr 2025 20:20:33,360 TRACE com.persistence.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2542d736)
+09 Apr 2025 20:20:33,364 TRACE com.persistence.repository.TeamDBRepository 87 findAll - Exit with([Yamaha, Kawasaki, KTM])
+09 Apr 2025 20:20:34,377 TRACE com.persistence.repository.ParticipantDBRepository 91 findAll - Enter
+09 Apr 2025 20:20:34,378 TRACE com.persistence.utils.JDBCUtils 21 getConnection - Enter
+09 Apr 2025 20:20:34,378 TRACE com.persistence.utils.JDBCUtils 35 getNewConnection - Enter
+09 Apr 2025 20:20:34,379 INFO  com.persistence.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db 
+09 Apr 2025 20:20:34,379 INFO  com.persistence.utils.JDBCUtils 42 getNewConnection - user: null 
+09 Apr 2025 20:20:34,381 INFO  com.persistence.utils.JDBCUtils 43 getNewConnection - pass: null 
+09 Apr 2025 20:20:34,383 TRACE com.persistence.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@35d1068e)
+09 Apr 2025 20:20:34,388 TRACE com.persistence.repository.ParticipantDBRepository 106 findAll - Exit with([Darius Puscas, Octavian Custura])
+09 Apr 2025 20:20:35,399 TRACE com.persistence.repository.RaceDBRepository 95 findAll - Enter
+09 Apr 2025 20:20:35,400 TRACE com.persistence.utils.JDBCUtils 21 getConnection - Enter
+09 Apr 2025 20:20:35,401 TRACE com.persistence.utils.JDBCUtils 35 getNewConnection - Enter
+09 Apr 2025 20:20:35,402 INFO  com.persistence.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db 
+09 Apr 2025 20:20:35,402 INFO  com.persistence.utils.JDBCUtils 42 getNewConnection - user: null 
+09 Apr 2025 20:20:35,403 INFO  com.persistence.utils.JDBCUtils 43 getNewConnection - pass: null 
+09 Apr 2025 20:20:35,405 TRACE com.persistence.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27c8d712)
+09 Apr 2025 20:20:35,406 TRACE com.persistence.repository.RaceDBRepository 110 findAll - Exit with([Doha])
+09 Apr 2025 20:20:35,408 TRACE com.persistence.repository.RaceEntryDBRepository 35 getEntriesByRace - Enter getEntriesByRace with task of id=1 
+09 Apr 2025 20:20:35,409 TRACE com.persistence.utils.JDBCUtils 21 getConnection - Enter
+09 Apr 2025 20:20:35,410 TRACE com.persistence.utils.JDBCUtils 35 getNewConnection - Enter
+09 Apr 2025 20:20:35,410 INFO  com.persistence.utils.JDBCUtils 41 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db 
+09 Apr 2025 20:20:35,411 INFO  com.persistence.utils.JDBCUtils 42 getNewConnection - user: null 
+09 Apr 2025 20:20:35,411 INFO  com.persistence.utils.JDBCUtils 43 getNewConnection - pass: null 
+09 Apr 2025 20:20:35,415 TRACE com.persistence.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@36412f19)
+09 Apr 2025 20:20:35,417 TRACE com.persistence.repository.RaceDBRepository 73 findById - Enter
+09 Apr 2025 20:20:35,417 TRACE com.persistence.utils.JDBCUtils 21 getConnection - Enter
+09 Apr 2025 20:20:35,418 TRACE com.persistence.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27c8d712)
+09 Apr 2025 20:20:35,419 TRACE com.persistence.repository.RaceDBRepository 81 findById - Exit with(Doha)
+09 Apr 2025 20:20:35,419 TRACE com.persistence.repository.ParticipantDBRepository 69 findById - Enter
+09 Apr 2025 20:20:35,420 TRACE com.persistence.utils.JDBCUtils 21 getConnection - Enter
+09 Apr 2025 20:20:35,420 TRACE com.persistence.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@35d1068e)
+09 Apr 2025 20:20:35,422 TRACE com.persistence.repository.ParticipantDBRepository 77 findById - Exit with(Darius Puscas)
+09 Apr 2025 20:20:35,422 TRACE com.persistence.repository.RaceDBRepository 73 findById - Enter
+09 Apr 2025 20:20:35,423 TRACE com.persistence.utils.JDBCUtils 21 getConnection - Enter
+09 Apr 2025 20:20:35,424 TRACE com.persistence.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27c8d712)
+09 Apr 2025 20:20:35,425 TRACE com.persistence.repository.RaceDBRepository 81 findById - Exit with(Doha)
+09 Apr 2025 20:20:35,425 TRACE com.persistence.repository.ParticipantDBRepository 69 findById - Enter
+09 Apr 2025 20:20:35,426 TRACE com.persistence.utils.JDBCUtils 21 getConnection - Enter
+09 Apr 2025 20:20:35,426 TRACE com.persistence.utils.JDBCUtils 30 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@35d1068e)
+09 Apr 2025 20:20:35,427 TRACE com.persistence.repository.ParticipantDBRepository 77 findById - Exit with(Octavian Custura)
+09 Apr 2025 20:20:35,440 TRACE com.persistence.repository.RaceEntryDBRepository 51 getEntriesByRace - Exit with([Darius Puscas registered for 'Doha 250cc', Octavian Custura registered for 'Doha 250cc'])
