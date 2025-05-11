@@ -123,12 +123,20 @@ public class MainController extends AnchorPane implements IMainObserver {
         try {
             participantsTable.getItems().clear();
             Team currentTeam = teamBox.getValue();
-            Collection<Participant> participants = server.getParticipantsByTeam(currentTeam.getID());
+            Collection<Participant> participants;
+
+            if (currentTeam == null) {
+                participants = server.findAllParticipants();
+            } else {
+                participants = server.getParticipantsByTeam(currentTeam.getID());
+            }
+
             participantsTable.getItems().addAll(participants);
         } catch (ContestDataException contestDataException) {
             AlertController.showError(currentStage, contestDataException.getMessage());
         }
     }
+
 
     public void init(IContestServices server, Stage currentStage, User currentUser) {
         try {
@@ -141,6 +149,8 @@ public class MainController extends AnchorPane implements IMainObserver {
             fillTeamBox();
             initialiseParticipantsTable();
             initialiseRaceTable();
+
+            onTeamBoxChanged();
         } catch (ContestDataException contestDataException) {
             AlertController.showError(currentStage, contestDataException.getMessage());
         }
@@ -150,6 +160,7 @@ public class MainController extends AnchorPane implements IMainObserver {
         teamBox.getItems().clear();
         Collection<Team> teams = server.findAllTeams();
         teamBox.getItems().addAll(teams);
+        teamBox.getSelectionModel().clearSelection();
     }
 
     private void initialiseParticipantsTable() throws ContestDataException {
