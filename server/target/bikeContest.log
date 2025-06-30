@@ -1,0 +1,384 @@
+30 Jun 2025 10:42:33,103 DEBUG org.jboss.logging.LoggerProviders 152 logProvider - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+30 Jun 2025 10:42:33,134 DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl 46 addIntegrator - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+30 Jun 2025 10:42:33,142 DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl 46 addIntegrator - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+30 Jun 2025 10:42:33,150 DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl 46 addIntegrator - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+30 Jun 2025 10:42:33,166 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 85 registerStrategyImplementor - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jdbc] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+30 Jun 2025 10:42:33,166 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 85 registerStrategyImplementor - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jta] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+30 Jun 2025 10:42:33,166 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 85 registerStrategyImplementor - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JDBCTransactionFactory] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+30 Jun 2025 10:42:33,166 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 85 registerStrategyImplementor - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JTATransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+30 Jun 2025 10:42:33,166 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 85 registerStrategyImplementor - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.CMTTransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+30 Jun 2025 10:42:33,182 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 85 registerStrategyImplementor - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [persistent] -> [org.hibernate.hql.spi.id.persistent.PersistentTableBulkIdStrategy]
+30 Jun 2025 10:42:33,182 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 85 registerStrategyImplementor - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [global_temporary] -> [org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy]
+30 Jun 2025 10:42:33,182 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 85 registerStrategyImplementor - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [local_temporary] -> [org.hibernate.hql.spi.id.local.LocalTemporaryTableBulkIdStrategy]
+30 Jun 2025 10:42:33,182 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 85 registerStrategyImplementor - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [default] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+30 Jun 2025 10:42:33,182 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 85 registerStrategyImplementor - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+30 Jun 2025 10:42:33,188 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 85 registerStrategyImplementor - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl]
+30 Jun 2025 10:42:33,188 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 85 registerStrategyImplementor - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-hbm] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl]
+30 Jun 2025 10:42:33,188 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 85 registerStrategyImplementor - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [component-path] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyComponentPathImpl]
+30 Jun 2025 10:42:33,188 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 85 registerStrategyImplementor - Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [default] -> [org.hibernate.cache.internal.DefaultCacheKeysFactory]
+30 Jun 2025 10:42:33,188 TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl 85 registerStrategyImplementor - Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [simple] -> [org.hibernate.cache.internal.SimpleCacheKeysFactory]
+30 Jun 2025 10:42:33,215 INFO  org.hibernate.Version 44 logVersion - HHH000412: Hibernate ORM core version 5.6.1.Final
+30 Jun 2025 10:42:33,219 DEBUG org.hibernate.cfg.Environment 199 <clinit> - HHH000206: hibernate.properties not found
+30 Jun 2025 10:42:33,554 TRACE org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl 182 locateResourceStream - trying via [new URL("hibernate.cfg.xml")]
+30 Jun 2025 10:42:33,554 TRACE org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl 193 locateResourceStream - trying via [ClassLoader.getResourceAsStream("hibernate.cfg.xml")]
+30 Jun 2025 10:42:33,582 TRACE org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver 35 resolveEntity - In resolveEntity(-//Hibernate/Hibernate Configuration DTD 3.0//EN, http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd, null, null)
+30 Jun 2025 10:42:33,587 DEBUG org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver 63 resolveEntity - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+30 Jun 2025 10:42:33,587 DEBUG org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver 91 resolveEntity - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+30 Jun 2025 10:42:33,599 DEBUG org.hibernate.boot.cfgxml.internal.JaxbCfgProcessor 117 unmarshal - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+30 Jun 2025 10:42:33,956 DEBUG org.hibernate.service.spi.ServiceBinding 68 setService - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+30 Jun 2025 10:42:33,973 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.engine.config.spi.ConfigurationService]
+30 Jun 2025 10:42:33,973 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.cache.spi.RegionFactory]
+30 Jun 2025 10:42:33,995 DEBUG org.hibernate.cache.internal.RegionFactoryInitiator 118 resolveRegionFactory - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+30 Jun 2025 10:42:33,997 DEBUG org.hibernate.cache.internal.RegionFactoryInitiator 49 initiateService - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+30 Jun 2025 10:42:34,018 INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager 56 <clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30 Jun 2025 10:42:34,179 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration boolean -> org.hibernate.type.BooleanType@2c1dc8e
+30 Jun 2025 10:42:34,179 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration boolean -> org.hibernate.type.BooleanType@2c1dc8e
+30 Jun 2025 10:42:34,179 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@2c1dc8e
+30 Jun 2025 10:42:34,186 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@29b732a2
+30 Jun 2025 10:42:34,186 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration true_false -> org.hibernate.type.TrueFalseType@1162410a
+30 Jun 2025 10:42:34,186 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration yes_no -> org.hibernate.type.YesNoType@62e8f862
+30 Jun 2025 10:42:34,189 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration byte -> org.hibernate.type.ByteType@6c2d4cc6
+30 Jun 2025 10:42:34,189 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration byte -> org.hibernate.type.ByteType@6c2d4cc6
+30 Jun 2025 10:42:34,189 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@6c2d4cc6
+30 Jun 2025 10:42:34,189 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration character -> org.hibernate.type.CharacterType@2472c7d8
+30 Jun 2025 10:42:34,189 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration char -> org.hibernate.type.CharacterType@2472c7d8
+30 Jun 2025 10:42:34,189 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@2472c7d8
+30 Jun 2025 10:42:34,192 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration short -> org.hibernate.type.ShortType@5c84624f
+30 Jun 2025 10:42:34,193 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration short -> org.hibernate.type.ShortType@5c84624f
+30 Jun 2025 10:42:34,193 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@5c84624f
+30 Jun 2025 10:42:34,194 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration integer -> org.hibernate.type.IntegerType@62b3df3a
+30 Jun 2025 10:42:34,194 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration int -> org.hibernate.type.IntegerType@62b3df3a
+30 Jun 2025 10:42:34,194 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@62b3df3a
+30 Jun 2025 10:42:34,206 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration long -> org.hibernate.type.LongType@545f80bf
+30 Jun 2025 10:42:34,206 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration long -> org.hibernate.type.LongType@545f80bf
+30 Jun 2025 10:42:34,206 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.lang.Long -> org.hibernate.type.LongType@545f80bf
+30 Jun 2025 10:42:34,209 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration float -> org.hibernate.type.FloatType@3e1162e7
+30 Jun 2025 10:42:34,209 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration float -> org.hibernate.type.FloatType@3e1162e7
+30 Jun 2025 10:42:34,209 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@3e1162e7
+30 Jun 2025 10:42:34,211 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration double -> org.hibernate.type.DoubleType@1ea9f009
+30 Jun 2025 10:42:34,211 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration double -> org.hibernate.type.DoubleType@1ea9f009
+30 Jun 2025 10:42:34,211 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1ea9f009
+30 Jun 2025 10:42:34,219 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@76f10035
+30 Jun 2025 10:42:34,224 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@76f10035
+30 Jun 2025 10:42:34,224 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@328572f0
+30 Jun 2025 10:42:34,224 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@328572f0
+30 Jun 2025 10:42:34,235 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration string -> org.hibernate.type.StringType@44d70181
+30 Jun 2025 10:42:34,235 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.lang.String -> org.hibernate.type.StringType@44d70181
+30 Jun 2025 10:42:34,235 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@88a8218
+30 Jun 2025 10:42:34,235 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@3e681bc
+30 Jun 2025 10:42:34,237 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration url -> org.hibernate.type.UrlType@48d7ad8b
+30 Jun 2025 10:42:34,237 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.net.URL -> org.hibernate.type.UrlType@48d7ad8b
+30 Jun 2025 10:42:34,239 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration Duration -> org.hibernate.type.DurationType@28b576a9
+30 Jun 2025 10:42:34,240 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@28b576a9
+30 Jun 2025 10:42:34,243 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration Instant -> org.hibernate.type.InstantType@37ff4054
+30 Jun 2025 10:42:34,243 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@37ff4054
+30 Jun 2025 10:42:34,243 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@3359c978
+30 Jun 2025 10:42:34,243 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@3359c978
+30 Jun 2025 10:42:34,243 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@1f9d6c7b
+30 Jun 2025 10:42:34,243 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@1f9d6c7b
+30 Jun 2025 10:42:34,243 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@181d7f28
+30 Jun 2025 10:42:34,243 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@181d7f28
+30 Jun 2025 10:42:34,250 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@6a078481
+30 Jun 2025 10:42:34,250 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@6a078481
+30 Jun 2025 10:42:34,256 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@676f0a60
+30 Jun 2025 10:42:34,256 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@676f0a60
+30 Jun 2025 10:42:34,259 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6759f091
+30 Jun 2025 10:42:34,259 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6759f091
+30 Jun 2025 10:42:34,261 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration date -> org.hibernate.type.DateType@456abb66
+30 Jun 2025 10:42:34,261 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.sql.Date -> org.hibernate.type.DateType@456abb66
+30 Jun 2025 10:42:34,263 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration time -> org.hibernate.type.TimeType@42561fba
+30 Jun 2025 10:42:34,263 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@42561fba
+30 Jun 2025 10:42:34,265 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration timestamp -> org.hibernate.type.TimestampType@5aa6202e
+30 Jun 2025 10:42:34,265 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@5aa6202e
+30 Jun 2025 10:42:34,265 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@5aa6202e
+30 Jun 2025 10:42:34,265 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@62d0ac62
+30 Jun 2025 10:42:34,265 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration calendar -> org.hibernate.type.CalendarType@410e94e
+30 Jun 2025 10:42:34,265 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@410e94e
+30 Jun 2025 10:42:34,265 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@410e94e
+30 Jun 2025 10:42:34,265 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@78d39a69
+30 Jun 2025 10:42:34,271 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@6bfdb014
+30 Jun 2025 10:42:34,271 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration locale -> org.hibernate.type.LocaleType@7f34a967
+30 Jun 2025 10:42:34,271 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@7f34a967
+30 Jun 2025 10:42:34,275 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration currency -> org.hibernate.type.CurrencyType@8dfe921
+30 Jun 2025 10:42:34,275 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@8dfe921
+30 Jun 2025 10:42:34,275 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration timezone -> org.hibernate.type.TimeZoneType@57f64f5e
+30 Jun 2025 10:42:34,275 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@57f64f5e
+30 Jun 2025 10:42:34,275 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration class -> org.hibernate.type.ClassType@bf71cec
+30 Jun 2025 10:42:34,275 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@bf71cec
+30 Jun 2025 10:42:34,275 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@5f233b26
+30 Jun 2025 10:42:34,275 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@5f233b26
+30 Jun 2025 10:42:34,275 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@43d455c9
+30 Jun 2025 10:42:34,275 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration binary -> org.hibernate.type.BinaryType@55caeb35
+30 Jun 2025 10:42:34,275 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration byte[] -> org.hibernate.type.BinaryType@55caeb35
+30 Jun 2025 10:42:34,275 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration [B -> org.hibernate.type.BinaryType@55caeb35
+30 Jun 2025 10:42:34,284 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@3af37506
+30 Jun 2025 10:42:34,284 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@3af37506
+30 Jun 2025 10:42:34,284 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@3af37506
+30 Jun 2025 10:42:34,284 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration row_version -> org.hibernate.type.RowVersionType@36a7abe1
+30 Jun 2025 10:42:34,289 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration image -> org.hibernate.type.ImageType@1adb7478
+30 Jun 2025 10:42:34,289 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration characters -> org.hibernate.type.CharArrayType@5a4ed68f
+30 Jun 2025 10:42:34,290 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration char[] -> org.hibernate.type.CharArrayType@5a4ed68f
+30 Jun 2025 10:42:34,290 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration [C -> org.hibernate.type.CharArrayType@5a4ed68f
+30 Jun 2025 10:42:34,292 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@29d334c
+30 Jun 2025 10:42:34,292 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@29d334c
+30 Jun 2025 10:42:34,292 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@29d334c
+30 Jun 2025 10:42:34,292 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration text -> org.hibernate.type.TextType@cd7f1ae
+30 Jun 2025 10:42:34,294 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration ntext -> org.hibernate.type.NTextType@3569edd5
+30 Jun 2025 10:42:34,298 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration blob -> org.hibernate.type.BlobType@22df874e
+30 Jun 2025 10:42:34,298 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@22df874e
+30 Jun 2025 10:42:34,304 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1ce93c18
+30 Jun 2025 10:42:34,306 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration clob -> org.hibernate.type.ClobType@208e9ef6
+30 Jun 2025 10:42:34,308 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@208e9ef6
+30 Jun 2025 10:42:34,310 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration nclob -> org.hibernate.type.NClobType@6f815e7f
+30 Jun 2025 10:42:34,310 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@6f815e7f
+30 Jun 2025 10:42:34,310 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@107e5441
+30 Jun 2025 10:42:34,312 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@7daa61f3
+30 Jun 2025 10:42:34,314 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration serializable -> org.hibernate.type.SerializableType@64040287
+30 Jun 2025 10:42:34,318 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration object -> org.hibernate.type.ObjectType@534243e4
+30 Jun 2025 10:42:34,318 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@534243e4
+30 Jun 2025 10:42:34,320 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@27494e46
+30 Jun 2025 10:42:34,320 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@d59970a
+30 Jun 2025 10:42:34,320 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1e411d81
+30 Jun 2025 10:42:34,320 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@53b98ff6
+30 Jun 2025 10:42:34,320 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@3e6fd0b9
+30 Jun 2025 10:42:34,320 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@7fcff1b9
+30 Jun 2025 10:42:34,320 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@697446d4
+30 Jun 2025 10:42:34,320 DEBUG org.hibernate.type.BasicTypeRegistry 157 register - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@76adb233
+30 Jun 2025 10:42:34,332 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.boot.cfgxml.spi.CfgXmlAccessService]
+30 Jun 2025 10:42:34,342 TRACE org.hibernate.boot.spi.XmlMappingBinderAccess 51 bind - reading mappings from resource : com.ubb.model/Participant.hbm.xml
+30 Jun 2025 10:42:34,346 TRACE org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver 35 resolveEntity - In resolveEntity(-//Hibernate/Hibernate Mapping DTD 3.0//EN, http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd, null, null)
+30 Jun 2025 10:42:34,346 DEBUG org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver 63 resolveEntity - Interpreting public/system identifier : [-//Hibernate/Hibernate Mapping DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+30 Jun 2025 10:42:34,346 DEBUG org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver 65 resolveEntity - Recognized hibernate-mapping identifier; attempting to resolve on classpath under org/hibernate/
+30 Jun 2025 10:42:34,362 DEBUG org.hibernate.boot.jaxb.internal.MappingBinder 50 doBind - Performing JAXB binding of hbm.xml document : Origin(name=com.ubb.model/Participant.hbm.xml,type=RESOURCE)
+30 Jun 2025 10:42:35,235 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.id.factory.spi.MutableIdentifierGeneratorFactory]
+30 Jun 2025 10:42:35,237 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 99 register - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+30 Jun 2025 10:42:35,239 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 99 register - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+30 Jun 2025 10:42:35,239 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 99 register - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+30 Jun 2025 10:42:35,239 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 99 register - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+30 Jun 2025 10:42:35,241 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 99 register - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+30 Jun 2025 10:42:35,241 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 99 register - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+30 Jun 2025 10:42:35,241 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 99 register - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+30 Jun 2025 10:42:35,241 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 99 register - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+30 Jun 2025 10:42:35,247 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 99 register - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+30 Jun 2025 10:42:35,248 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 99 register - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+30 Jun 2025 10:42:35,250 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 99 register - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+30 Jun 2025 10:42:35,250 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 99 register - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+30 Jun 2025 10:42:35,250 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 99 register - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+30 Jun 2025 10:42:35,263 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory 99 register - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+30 Jun 2025 10:42:35,263 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+30 Jun 2025 10:42:35,263 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectFactory]
+30 Jun 2025 10:42:35,263 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectResolver]
+30 Jun 2025 10:42:35,263 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.engine.jdbc.connections.spi.ConnectionProvider]
+30 Jun 2025 10:42:35,263 WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 72 configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30 Jun 2025 10:42:35,284 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 115 buildCreator - HHH10001005: using driver [org.sqlite.JDBC] at URL [jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db]
+30 Jun 2025 10:42:35,284 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 121 buildCreator - HHH10001001: Connection properties: {}
+30 Jun 2025 10:42:35,284 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 129 buildCreator - HHH10001003: Autocommit mode: false
+30 Jun 2025 10:42:35,288 DEBUG org.jboss.logging.DelegatingBasicLogger 384 debugf - Initializing Connection pool with 1 Connections
+30 Jun 2025 10:42:35,289 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 274 <init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+30 Jun 2025 10:42:35,906 DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator 72 initiateService - Database ->
+       name : SQLite
+    version : 3.40.1
+      major : 3
+      minor : 40
+30 Jun 2025 10:42:35,908 DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator 83 initiateService - Driver ->
+       name : SQLite JDBC
+    version : 3.40.1.0
+      major : 3
+      minor : 40
+30 Jun 2025 10:42:35,908 DEBUG org.jboss.logging.DelegatingBasicLogger 389 debugf - JDBC version : 4.2
+30 Jun 2025 10:42:35,927 INFO  org.hibernate.dialect.Dialect 175 <init> - HHH000400: Using dialect: com.ubb.dialect.SQLiteDialect
+30 Jun 2025 10:42:35,948 DEBUG org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder 114 applyIdentifierCasing - JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+30 Jun 2025 10:42:35,950 DEBUG org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder 197 build - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+30 Jun 2025 10:42:35,959 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 59 normalizeQuoting - Normalizing identifier quoting [null]
+30 Jun 2025 10:42:35,961 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 59 normalizeQuoting - Normalizing identifier quoting [null]
+30 Jun 2025 10:42:35,966 DEBUG org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl 132 useContextualLobCreation - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+30 Jun 2025 10:42:35,969 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.resource.beans.spi.ManagedBeanRegistry]
+30 Jun 2025 10:42:35,974 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.engine.jdbc.spi.JdbcServices]
+30 Jun 2025 10:42:35,982 DEBUG org.hibernate.boot.model.relational.Namespace 51 <init> - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+30 Jun 2025 10:42:35,989 DEBUG org.hibernate.type.spi.TypeConfiguration 149 scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@4b7c4456] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@2c768ada]
+30 Jun 2025 10:42:36,004 TRACE org.hibernate.boot.model.source.internal.hbm.EntityHierarchyBuilder 89 indexMappingDocument - Indexing mapping document [Origin(name=com.ubb.model/Participant.hbm.xml,type=RESOURCE)] for purpose of building entity hierarchy ordering
+30 Jun 2025 10:42:36,057 TRACE org.hibernate.boot.internal.InFlightMetadataCollectorImpl 724 addImport - Import: com.ubb.model.Participant -> com.ubb.model.Participant
+30 Jun 2025 10:42:36,061 TRACE org.hibernate.boot.internal.InFlightMetadataCollectorImpl 724 addImport - Import: Participant -> com.ubb.model.Participant
+30 Jun 2025 10:42:36,061 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 59 normalizeQuoting - Normalizing identifier quoting [participants]
+30 Jun 2025 10:42:36,061 DEBUG org.hibernate.boot.model.source.internal.hbm.ModelBinder 238 bindRootEntity - Mapping class: com.ubb.model.Participant -> participants
+30 Jun 2025 10:42:36,072 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 59 normalizeQuoting - Normalizing identifier quoting [id]
+30 Jun 2025 10:42:36,075 DEBUG org.hibernate.boot.model.source.internal.hbm.ModelBinder 2560 bindProperty - Mapped property: id -> [id]
+30 Jun 2025 10:42:36,077 DEBUG org.hibernate.mapping.PrimaryKey 35 addColumn - Forcing column [id] to be non-null as it is part of the primary key for table [participants]
+30 Jun 2025 10:42:36,077 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 59 normalizeQuoting - Normalizing identifier quoting [firstname]
+30 Jun 2025 10:42:36,077 DEBUG org.hibernate.boot.model.source.internal.hbm.ModelBinder 2560 bindProperty - Mapped property: firstName -> [firstname]
+30 Jun 2025 10:42:36,077 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 59 normalizeQuoting - Normalizing identifier quoting [lastname]
+30 Jun 2025 10:42:36,077 DEBUG org.hibernate.boot.model.source.internal.hbm.ModelBinder 2560 bindProperty - Mapped property: lastName -> [lastname]
+30 Jun 2025 10:42:36,079 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 59 normalizeQuoting - Normalizing identifier quoting [engineCc]
+30 Jun 2025 10:42:36,079 DEBUG org.hibernate.boot.model.source.internal.hbm.ModelBinder 2560 bindProperty - Mapped property: engineCapacity -> [engineCc]
+30 Jun 2025 10:42:36,079 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 59 normalizeQuoting - Normalizing identifier quoting [teamID]
+30 Jun 2025 10:42:36,080 DEBUG org.hibernate.boot.model.source.internal.hbm.ModelBinder 2560 bindProperty - Mapped property: teamID -> [teamID]
+30 Jun 2025 10:42:36,085 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 59 normalizeQuoting - Normalizing identifier quoting [id]
+30 Jun 2025 10:42:36,085 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 59 normalizeQuoting - Normalizing identifier quoting [participants]
+30 Jun 2025 10:42:36,088 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.boot.spi.SessionFactoryBuilderService]
+30 Jun 2025 10:42:36,103 TRACE org.hibernate.loader.BatchFetchStyle 51 interpret - Interpreting BatchFetchStyle from setting : null
+30 Jun 2025 10:42:36,109 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder]
+30 Jun 2025 10:42:36,116 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.bytecode.spi.BytecodeProvider]
+30 Jun 2025 10:42:36,135 DEBUG org.hibernate.internal.SessionFactoryImpl 206 <init> - Building session factory
+30 Jun 2025 10:42:36,138 DEBUG org.hibernate.cfg.Settings 68 <init> - SessionFactory name : null
+30 Jun 2025 10:42:36,138 DEBUG org.hibernate.cfg.Settings 69 <init> - Automatic flush during beforeCompletion(): enabled
+30 Jun 2025 10:42:36,138 DEBUG org.hibernate.cfg.Settings 70 <init> - Automatic session close at end of transaction: disabled
+30 Jun 2025 10:42:36,138 DEBUG org.hibernate.cfg.Settings 72 <init> - Statistics: disabled
+30 Jun 2025 10:42:36,138 DEBUG org.hibernate.cfg.Settings 74 <init> - Deleted entity synthetic identifier rollback: disabled
+30 Jun 2025 10:42:36,138 DEBUG org.hibernate.cfg.Settings 75 <init> - Default entity-mode: pojo
+30 Jun 2025 10:42:36,138 DEBUG org.hibernate.cfg.Settings 76 <init> - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+30 Jun 2025 10:42:36,140 DEBUG org.hibernate.cfg.Settings 77 <init> - Allow initialization of lazy state outside session : disabled
+30 Jun 2025 10:42:36,140 DEBUG org.hibernate.cfg.Settings 79 <init> - Using BatchFetchStyle : LEGACY
+30 Jun 2025 10:42:36,140 DEBUG org.hibernate.cfg.Settings 80 <init> - Default batch fetch size: -1
+30 Jun 2025 10:42:36,140 DEBUG org.hibernate.cfg.Settings 81 <init> - Maximum outer join fetch depth: null
+30 Jun 2025 10:42:36,140 DEBUG org.hibernate.cfg.Settings 82 <init> - Default null ordering: NONE
+30 Jun 2025 10:42:36,140 DEBUG org.hibernate.cfg.Settings 83 <init> - Order SQL updates by primary key: disabled
+30 Jun 2025 10:42:36,140 DEBUG org.hibernate.cfg.Settings 84 <init> - Order SQL inserts for batching: disabled
+30 Jun 2025 10:42:36,140 DEBUG org.hibernate.cfg.Settings 86 <init> - multi-tenancy strategy : NONE
+30 Jun 2025 10:42:36,140 DEBUG org.hibernate.cfg.Settings 88 <init> - JTA Track by Thread: enabled
+30 Jun 2025 10:42:36,140 DEBUG org.hibernate.cfg.Settings 90 <init> - Query language substitutions: {}
+30 Jun 2025 10:42:36,140 DEBUG org.hibernate.cfg.Settings 91 <init> - Named query checking : enabled
+30 Jun 2025 10:42:36,140 DEBUG org.hibernate.cfg.Settings 93 <init> - Second-level cache: disabled
+30 Jun 2025 10:42:36,140 DEBUG org.hibernate.cfg.Settings 94 <init> - Second-level query cache: disabled
+30 Jun 2025 10:42:36,140 DEBUG org.hibernate.cfg.Settings 95 <init> - Second-level query cache factory: null
+30 Jun 2025 10:42:36,140 DEBUG org.hibernate.cfg.Settings 96 <init> - Second-level cache region prefix: null
+30 Jun 2025 10:42:36,140 DEBUG org.hibernate.cfg.Settings 97 <init> - Optimize second-level cache for minimal puts: disabled
+30 Jun 2025 10:42:36,140 DEBUG org.hibernate.cfg.Settings 98 <init> - Structured second-level cache entries: disabled
+30 Jun 2025 10:42:36,140 DEBUG org.hibernate.cfg.Settings 99 <init> - Second-level cache direct-reference entries: disabled
+30 Jun 2025 10:42:36,142 DEBUG org.hibernate.cfg.Settings 100 <init> - Automatic eviction of collection cache: disabled
+30 Jun 2025 10:42:36,142 DEBUG org.hibernate.cfg.Settings 102 <init> - JDBC batch size: 1
+30 Jun 2025 10:42:36,142 DEBUG org.hibernate.cfg.Settings 103 <init> - JDBC batch updates for versioned data: enabled
+30 Jun 2025 10:42:36,142 DEBUG org.hibernate.cfg.Settings 104 <init> - Scrollable result sets: disabled
+30 Jun 2025 10:42:36,142 DEBUG org.hibernate.cfg.Settings 105 <init> - Wrap result sets: disabled
+30 Jun 2025 10:42:36,142 DEBUG org.hibernate.cfg.Settings 106 <init> - JDBC3 getGeneratedKeys(): enabled
+30 Jun 2025 10:42:36,142 DEBUG org.hibernate.cfg.Settings 107 <init> - JDBC result set fetch size: null
+30 Jun 2025 10:42:36,142 DEBUG org.hibernate.cfg.Settings 108 <init> - Connection release mode: AFTER_TRANSACTION
+30 Jun 2025 10:42:36,142 DEBUG org.hibernate.cfg.Settings 109 <init> - Generate SQL with comments: disabled
+30 Jun 2025 10:42:36,142 DEBUG org.hibernate.cfg.Settings 111 <init> - JPA compliance - query : disabled
+30 Jun 2025 10:42:36,144 DEBUG org.hibernate.cfg.Settings 112 <init> - JPA compliance - closed-handling : disabled
+30 Jun 2025 10:42:36,144 DEBUG org.hibernate.cfg.Settings 113 <init> - JPA compliance - lists : disabled
+30 Jun 2025 10:42:36,144 DEBUG org.hibernate.cfg.Settings 114 <init> - JPA compliance - transactions : disabled
+30 Jun 2025 10:42:36,144 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.service.spi.SessionFactoryServiceRegistryFactory]
+30 Jun 2025 10:42:36,162 DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl 60 classForName - Not known whether passed class name [com.ubb.model.Participant] is safe
+30 Jun 2025 10:42:36,162 DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl 62 classForName - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.ubb.model.Participant
+30 Jun 2025 10:42:36,226 DEBUG org.hibernate.service.internal.SessionFactoryServiceRegistryImpl 92 getService - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+30 Jun 2025 10:42:36,226 DEBUG org.hibernate.service.internal.SessionFactoryServiceRegistryImpl 92 getService - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+30 Jun 2025 10:42:36,231 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.cache.spi.CacheImplementor]
+30 Jun 2025 10:42:36,250 DEBUG org.hibernate.internal.SessionFactoryImpl 268 <init> - Session factory constructed with filter configurations : {}
+30 Jun 2025 10:42:36,250 DEBUG org.hibernate.internal.SessionFactoryImpl 269 <init> - Instantiating session factory with properties: {hibernate.format_sql=true, dialect=com.ubb.dialect.SQLiteDialect, java.specification.version=17, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, hibernate.dialect=com.ubb.dialect.SQLiteDialect, java.class.path=C:\Users\Razva\Downloads\lab11\java\server\build\classes\java\main;C:\Users\Razva\Downloads\lab11\java\server\build\resources\main;C:\Users\Razva\Downloads\lab11\java\networking\build\libs\networking-1.0-SNAPSHOT.jar;C:\Users\Razva\Downloads\lab11\java\services\build\libs\services-1.0-SNAPSHOT.jar;C:\Users\Razva\Downloads\lab11\java\persistence\build\libs\persistence-1.0-SNAPSHOT.jar;C:\Users\Razva\Downloads\lab11\java\model\build\libs\model-1.0-SNAPSHOT.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-core\5.6.1.Final\e587b28eef7a5dd7c742d5dd20e16c9c38b2e34d\hibernate-core-5.6.1.Final.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java\3.22.4\fdee98b8f6abab73f146a4edb4c09e56f8278d03\protobuf-java-3.22.4.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\jaxb-runtime\2.3.2\5528bc882ea499a09d720b42af11785c4fc6be2a\jaxb-runtime-2.3.2.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\org.jvnet.staxex\stax-ex\1.8.1\78011e483a21102fb4858f3e8f269a677e50aa23\stax-ex-1.8.1.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\jakarta.xml.bind\jakarta.xml.bind-api\2.3.2\8d49996a4338670764d7ca4b85a1c4ccf7fe665d\jakarta.xml.bind-api-2.3.2.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\org.xerial\sqlite-jdbc\3.40.1.0\4e77207cd5a1c3ee00e287b7792683463dc50570\sqlite-jdbc-3.40.1.0.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j-impl\2.17.2\183f7c95fc981f3e97d008b363341343508848e\log4j-slf4j-impl-2.17.2.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.17.2\fa43ba4467f5300b16d1e0742934149bfc5ac564\log4j-core-2.17.2.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.17.2\f42d6afa111b4dec5d2aea0fe2197240749a4ea6\log4j-api-2.17.2.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\org.springframework\spring-context\5.1.5.RELEASE\d39299241a2c8353d83f0f0c84d3677973da7c57\spring-context-5.1.5.RELEASE.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\org.hibernate.common\hibernate-commons-annotations\5.1.2.Final\e59ffdbc6ad09eeb33507b39ffcf287679a498c8\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.4.2.Final\e517b8a93dd9962ed5481345e4d262fdd47c4217\jboss-logging-3.4.2.Final.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\javax.persistence\javax.persistence-api\2.2\25665ac8c0b62f50e6488173233239120fc52c96\javax.persistence-api-2.2.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.11.20\340ea62787abad5682f17058e7c8928605e116d5\byte-buddy-1.11.20.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\antlr\antlr\2.7.7\83cd2cd674a217ade95a4bb83a8a14f351f48bd0\antlr-2.7.7.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\a8485cab9484dda36e9a8c319e76b5cc18797b58\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\org.jboss\jandex\2.2.3.Final\d3865101f0666b63586683bd811d754517f331ab\jandex-2.2.3.Final.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.5.1\3fe0bed568c62df5e89f4f174c101eab25345b6c\classmate-1.5.1.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\javax.xml.bind\jaxb-api\2.3.1\8531ad5ac454cc2deb9d4d32c40c4d7451939b5d\jaxb-api-2.3.1.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\javax.activation\javax.activation-api\1.2.0\85262acf3ca9816f9537ca47d5adeabaead7cb16\javax.activation-api-1.2.0.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\txw2\2.3.2\ce5be7da2e442c25ec14c766cb60cb802741727b\txw2-2.3.2.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\com.sun.istack\istack-commons-runtime\3.0.8\d6a97364045aa6b99bf2d3c566a3f98599c2d296\istack-commons-runtime-3.0.8.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\com.sun.xml.fastinfoset\FastInfoset\1.2.16\4eb6a0adad553bf759ffe86927df6f3b848c8bea\FastInfoset-1.2.16.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\jakarta.activation\jakarta.activation-api\1.2.1\562a587face36ec7eff2db7f2fc95425c6602bc1\jakarta.activation-api-1.2.1.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.25\da76ca59f6a57ee3102f8f9bd9cee742973efa8a\slf4j-api-1.7.25.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\org.springframework\spring-aop\5.1.5.RELEASE\5e6ab23bc14369b0e29881afd85ad13b79846a0e\spring-aop-5.1.5.RELEASE.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\org.springframework\spring-beans\5.1.5.RELEASE\58b10c61f6bf2362909d884813c4049b657735f5\spring-beans-5.1.5.RELEASE.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\org.springframework\spring-expression\5.1.5.RELEASE\b728a06924560ee69307a52d100e6b156d9a4a80\spring-expression-5.1.5.RELEASE.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\org.springframework\spring-core\5.1.5.RELEASE\aacc4555108f3da913a58114b2aebc819f58cce4\spring-core-5.1.5.RELEASE.jar;C:\Users\Razva\.gradle\caches\modules-2\files-2.1\org.springframework\spring-jcl\5.1.5.RELEASE\5cbd44d11a031c64c788edf1f99706b31c434469\spring-jcl-5.1.5.RELEASE.jar, java.vm.vendor=Amazon.com Inc., sun.arch.data.model=64, user.variant=, java.vendor.url=https://aws.amazon.com/corretto/, user.timezone=Europe/Bucharest, java.vm.specification.version=17, os.name=Windows 11, user.country=US, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=C:\Users\Razva\.jdks\corretto-17.0.14\bin, sun.java.command=StartServer, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\Razva, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2025-01-21, java.home=C:\Users\Razva\.jdks\corretto-17.0.14, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.hbm2ddl.auto=update, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=17.0.14+7-LTS, user.name=Razva, path.separator=;, os.version=10.0, java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, file.encoding=UTF-8, format_sql=true, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=true, java.vendor.version=Corretto-17.0.14.7.1, show_sql=true, hibernate.connection.driver_class=org.sqlite.JDBC, java.vendor.url.bug=https://github.com/corretto/corretto-17/issues/, java.io.tmpdir=C:\Users\Razva\AppData\Local\Temp\, java.version=17.0.14, user.dir=C:\Users\Razva\Downloads\lab11\java\server, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, sun.os.patch.level=, connection.driver_class=org.sqlite.JDBC, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@e9ef5b6, native.encoding=Cp1252, java.library.path=C:\Users\Razva\.jdks\corretto-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Razva\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts;C:\Users\Razva\miniconda3\Scripts;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\Razva\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Razva\AppData\Local\Programs\Python\Python310\;C:\Users\Razva\AppData\Local\Microsoft\WindowsApps;C:\Users\Razva\.dotnet\tools;C:\Users\Razva\AppData\Local\flutter\bin;C:\Users\Razva\AppData\Local\flutter\bin\cache\dart-sdk\bin;C:\Users\Razva\AppData\Roaming\npm;C:\Users\Razva\AppData\Local\GitHubDesktop\bin;C:\Users\Razva\AppData\Local\Programs\cursor\resources\app\bin;C:\MinGW\bin;C:\Users\Razva\AppData\Roaming\Python\Python313\Scripts;;., java.vendor=Amazon.com Inc., java.vm.info=mixed mode, sharing, java.vm.version=17.0.14+7-LTS, java.specification.maintenance.version=1, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, connection.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db, java.class.version=61.0}
+30 Jun 2025 10:42:36,255 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.engine.query.spi.NativeQueryInterpreter]
+30 Jun 2025 10:42:36,272 DEBUG org.hibernate.secure.spi.JaccIntegrator 84 doIntegration - Skipping JACC integration as it was not enabled
+30 Jun 2025 10:42:36,274 DEBUG org.hibernate.internal.SessionFactoryImpl 309 <init> - Instantiated session factory
+30 Jun 2025 10:42:36,274 DEBUG org.hibernate.type.spi.TypeConfiguration 154 scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@4b7c4456] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@60325987]
+30 Jun 2025 10:42:36,290 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.persister.spi.PersisterFactory]
+30 Jun 2025 10:42:36,298 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.persister.spi.PersisterClassResolver]
+30 Jun 2025 10:42:36,314 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.property.access.spi.PropertyAccessStrategyResolver]
+30 Jun 2025 10:42:36,373 DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl 60 classForName - Not known whether passed class name [com.ubb.model.Participant] is safe
+30 Jun 2025 10:42:36,373 DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl 62 classForName - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.ubb.model.Participant
+30 Jun 2025 10:42:36,383 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.bytecode.spi.ProxyFactoryFactory]
+30 Jun 2025 10:42:36,666 TRACE org.hibernate.persister.entity.AbstractPropertyMapping 129 logDuplicateRegistration - Skipping duplicate registration of path [firstName], existing type = [org.hibernate.type.StringType@44d70181], incoming type = [org.hibernate.type.StringType@44d70181]
+30 Jun 2025 10:42:36,666 TRACE org.hibernate.persister.entity.AbstractPropertyMapping 129 logDuplicateRegistration - Skipping duplicate registration of path [lastName], existing type = [org.hibernate.type.StringType@44d70181], incoming type = [org.hibernate.type.StringType@44d70181]
+30 Jun 2025 10:42:36,666 TRACE org.hibernate.persister.entity.AbstractPropertyMapping 129 logDuplicateRegistration - Skipping duplicate registration of path [engineCapacity], existing type = [org.hibernate.type.IntegerType@62b3df3a], incoming type = [org.hibernate.type.IntegerType@62b3df3a]
+30 Jun 2025 10:42:36,666 TRACE org.hibernate.persister.entity.AbstractPropertyMapping 129 logDuplicateRegistration - Skipping duplicate registration of path [teamID], existing type = [org.hibernate.type.LongType@545f80bf], incoming type = [org.hibernate.type.LongType@545f80bf]
+30 Jun 2025 10:42:36,666 TRACE org.hibernate.persister.entity.AbstractPropertyMapping 129 logDuplicateRegistration - Skipping duplicate registration of path [id], existing type = [org.hibernate.type.LongType@545f80bf], incoming type = [org.hibernate.type.LongType@545f80bf]
+30 Jun 2025 10:42:36,680 DEBUG org.hibernate.persister.entity.AbstractEntityPersister 4002 logStaticSQL - Static SQL for entity: com.ubb.model.Participant
+30 Jun 2025 10:42:36,680 DEBUG org.hibernate.persister.entity.AbstractEntityPersister 4007 logStaticSQL -  Version select: select id from participants where id =?
+30 Jun 2025 10:42:36,682 DEBUG org.hibernate.persister.entity.AbstractEntityPersister 4010 logStaticSQL -  Snapshot select: select participan_.id, participan_.firstname as firstnam2_0_, participan_.lastname as lastname3_0_, participan_.engineCc as enginecc4_0_, participan_.teamID as teamid5_0_ from participants participan_ where participan_.id=?
+30 Jun 2025 10:42:36,682 DEBUG org.jboss.logging.DelegatingBasicLogger 394 debugf -  Insert 0: insert into participants (firstname, lastname, engineCc, teamID, id) values (?, ?, ?, ?, ?)
+30 Jun 2025 10:42:36,682 DEBUG org.jboss.logging.DelegatingBasicLogger 394 debugf -  Update 0: update participants set firstname=?, lastname=?, engineCc=?, teamID=? where id=?
+30 Jun 2025 10:42:36,682 DEBUG org.jboss.logging.DelegatingBasicLogger 394 debugf -  Delete 0: delete from participants where id=?
+30 Jun 2025 10:42:36,696 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 172 startingEntity -  Starting root entity : com.ubb.model.Participant
+30 Jun 2025 10:42:36,712 DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl 174 registerQuerySpace - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3a2e9f5b]
+30 Jun 2025 10:42:36,712 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 113 pushToStack - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@12a2585b
+30 Jun 2025 10:42:36,712 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 648 associationKeyRegistered - .. Registering AssociationKey : AssociationKey(table=participants, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@12a2585b
+30 Jun 2025 10:42:36,712 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 239 startingEntityIdentifier - >> Starting entity identifier : com.ubb.model.Participant
+30 Jun 2025 10:42:36,712 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 146 visitAttributeDefinition - Visiting attribute path : firstName
+30 Jun 2025 10:42:36,712 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=firstName, type=string [non-identifier])
+30 Jun 2025 10:42:36,712 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=firstName, type=string [non-identifier])
+30 Jun 2025 10:42:36,712 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 146 visitAttributeDefinition - Visiting attribute path : lastName
+30 Jun 2025 10:42:36,712 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=lastName, type=string [non-identifier])
+30 Jun 2025 10:42:36,712 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=lastName, type=string [non-identifier])
+30 Jun 2025 10:42:36,716 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 146 visitAttributeDefinition - Visiting attribute path : engineCapacity
+30 Jun 2025 10:42:36,716 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=engineCapacity, type=integer [non-identifier])
+30 Jun 2025 10:42:36,716 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=engineCapacity, type=integer [non-identifier])
+30 Jun 2025 10:42:36,716 DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker 146 visitAttributeDefinition - Visiting attribute path : teamID
+30 Jun 2025 10:42:36,716 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 547 startingAttribute - >> Starting attribute Attribute(name=teamID, type=long [non-identifier])
+30 Jun 2025 10:42:36,716 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 628 finishingAttribute - << Finishing up attribute : Attribute(name=teamID, type=long [non-identifier])
+30 Jun 2025 10:42:36,716 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 120 popFromStack - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@12a2585b
+30 Jun 2025 10:42:36,716 TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy 208 finishingEntity -  Finished root entity : com.ubb.model.Participant
+30 Jun 2025 10:42:36,716 DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy 160 buildLoadPlan - Building LoadPlan...
+30 Jun 2025 10:42:36,731 DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor 102 processQuerySpaceJoins - processing queryspace <gen:0>
+30 Jun 2025 10:42:36,739 DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter 55 logTree - LoadPlan(entity=com.ubb.model.Participant)
+    - Returns
+       - EntityReturnImpl(entity=com.ubb.model.Participant, querySpaceUid=<gen:0>, path=com.ubb.model.Participant)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.ubb.model.Participant)
+          - SQL table alias mapping - participan0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+30 Jun 2025 10:42:36,741 DEBUG org.hibernate.loader.entity.plan.EntityLoader 129 <init> - Static select for entity com.ubb.model.Participant [NONE]: select participan0_.id as id1_0_0_, participan0_.firstname as firstnam2_0_0_, participan0_.lastname as lastname3_0_0_, participan0_.engineCc as enginecc4_0_0_, participan0_.teamID as teamid5_0_0_ from participants participan0_ where participan0_.id=?
+30 Jun 2025 10:42:36,746 TRACE org.hibernate.metamodel.internal.MetadataContext 230 wrapUp - Wrapping up metadata context...
+30 Jun 2025 10:42:36,746 TRACE org.hibernate.metamodel.internal.MetadataContext 242 wrapUp - Starting entity [com.ubb.model.Participant]
+30 Jun 2025 10:42:36,746 TRACE org.hibernate.metamodel.internal.AttributeFactory 179 buildIdAttribute - Building identifier attribute [Participant.id]
+30 Jun 2025 10:42:36,746 TRACE org.hibernate.metamodel.internal.AttributeFactory 492 determineAttributeMetadata - Starting attribute metadata determination [id]
+30 Jun 2025 10:42:36,746 TRACE org.hibernate.metamodel.internal.AttributeFactory 497 determineAttributeMetadata -     Determined member [public java.lang.Long com.ubb.model.Participant.getId()]
+30 Jun 2025 10:42:36,746 TRACE org.hibernate.metamodel.internal.AttributeFactory 501 determineAttributeMetadata -     Determined type [name=long, class=org.hibernate.type.LongType]
+30 Jun 2025 10:42:36,763 TRACE org.hibernate.metamodel.internal.AttributeFactory 90 buildAttribute - Building attribute [Participant.firstName]
+30 Jun 2025 10:42:36,765 TRACE org.hibernate.metamodel.internal.AttributeFactory 492 determineAttributeMetadata - Starting attribute metadata determination [firstName]
+30 Jun 2025 10:42:36,765 TRACE org.hibernate.metamodel.internal.AttributeFactory 497 determineAttributeMetadata -     Determined member [public java.lang.String com.ubb.model.Participant.getFirstName()]
+30 Jun 2025 10:42:36,765 TRACE org.hibernate.metamodel.internal.AttributeFactory 501 determineAttributeMetadata -     Determined type [name=string, class=org.hibernate.type.StringType]
+30 Jun 2025 10:42:36,765 TRACE org.hibernate.metamodel.internal.AttributeFactory 90 buildAttribute - Building attribute [Participant.lastName]
+30 Jun 2025 10:42:36,765 TRACE org.hibernate.metamodel.internal.AttributeFactory 492 determineAttributeMetadata - Starting attribute metadata determination [lastName]
+30 Jun 2025 10:42:36,765 TRACE org.hibernate.metamodel.internal.AttributeFactory 497 determineAttributeMetadata -     Determined member [public java.lang.String com.ubb.model.Participant.getLastName()]
+30 Jun 2025 10:42:36,765 TRACE org.hibernate.metamodel.internal.AttributeFactory 501 determineAttributeMetadata -     Determined type [name=string, class=org.hibernate.type.StringType]
+30 Jun 2025 10:42:36,765 TRACE org.hibernate.metamodel.internal.AttributeFactory 90 buildAttribute - Building attribute [Participant.engineCapacity]
+30 Jun 2025 10:42:36,765 TRACE org.hibernate.metamodel.internal.AttributeFactory 492 determineAttributeMetadata - Starting attribute metadata determination [engineCapacity]
+30 Jun 2025 10:42:36,765 TRACE org.hibernate.metamodel.internal.AttributeFactory 497 determineAttributeMetadata -     Determined member [public java.lang.Integer com.ubb.model.Participant.getEngineCapacity()]
+30 Jun 2025 10:42:36,765 TRACE org.hibernate.metamodel.internal.AttributeFactory 501 determineAttributeMetadata -     Determined type [name=integer, class=org.hibernate.type.IntegerType]
+30 Jun 2025 10:42:36,765 TRACE org.hibernate.metamodel.internal.AttributeFactory 90 buildAttribute - Building attribute [Participant.teamID]
+30 Jun 2025 10:42:36,765 TRACE org.hibernate.metamodel.internal.AttributeFactory 492 determineAttributeMetadata - Starting attribute metadata determination [teamID]
+30 Jun 2025 10:42:36,765 TRACE org.hibernate.metamodel.internal.AttributeFactory 497 determineAttributeMetadata -     Determined member [public java.lang.Long com.ubb.model.Participant.getTeamID()]
+30 Jun 2025 10:42:36,765 TRACE org.hibernate.metamodel.internal.AttributeFactory 501 determineAttributeMetadata -     Determined type [name=long, class=org.hibernate.type.LongType]
+30 Jun 2025 10:42:36,765 TRACE org.hibernate.metamodel.internal.MetadataContext 277 wrapUp - Completed entity [com.ubb.model.Participant]
+30 Jun 2025 10:42:36,767 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 59 normalizeQuoting - Normalizing identifier quoting [null]
+30 Jun 2025 10:42:36,769 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 59 normalizeQuoting - Normalizing identifier quoting [null]
+30 Jun 2025 10:42:36,769 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.tool.schema.spi.SchemaManagementTool]
+30 Jun 2025 10:42:36,794 INFO  org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl 48 getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@20580d4e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+30 Jun 2025 10:42:36,816 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 192 toMetaDataObjectName - Normalizing identifier quoting for object name [participants]
+30 Jun 2025 10:42:36,816 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 154 toMetaDataText - Rendering unquoted identifier [participants] in mixed case for use in DatabaseMetaData
+30 Jun 2025 10:42:36,816 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 192 toMetaDataObjectName - Normalizing identifier quoting for object name [id]
+30 Jun 2025 10:42:36,816 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 154 toMetaDataText - Rendering unquoted identifier [id] in mixed case for use in DatabaseMetaData
+30 Jun 2025 10:42:36,818 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 192 toMetaDataObjectName - Normalizing identifier quoting for object name [firstname]
+30 Jun 2025 10:42:36,818 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 154 toMetaDataText - Rendering unquoted identifier [firstname] in mixed case for use in DatabaseMetaData
+30 Jun 2025 10:42:36,818 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 192 toMetaDataObjectName - Normalizing identifier quoting for object name [lastname]
+30 Jun 2025 10:42:36,818 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 154 toMetaDataText - Rendering unquoted identifier [lastname] in mixed case for use in DatabaseMetaData
+30 Jun 2025 10:42:36,818 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 192 toMetaDataObjectName - Normalizing identifier quoting for object name [engineCc]
+30 Jun 2025 10:42:36,818 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 154 toMetaDataText - Rendering unquoted identifier [engineCc] in mixed case for use in DatabaseMetaData
+30 Jun 2025 10:42:36,818 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 192 toMetaDataObjectName - Normalizing identifier quoting for object name [teamID]
+30 Jun 2025 10:42:36,818 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 154 toMetaDataText - Rendering unquoted identifier [teamID] in mixed case for use in DatabaseMetaData
+30 Jun 2025 10:42:36,818 DEBUG org.hibernate.mapping.Table 520 sqlAlterStrings - No alter strings for table : participants
+30 Jun 2025 10:42:36,818 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 192 toMetaDataObjectName - Normalizing identifier quoting for object name [participants]
+30 Jun 2025 10:42:36,818 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 154 toMetaDataText - Rendering unquoted identifier [participants] in mixed case for use in DatabaseMetaData
+30 Jun 2025 10:42:36,819 TRACE org.hibernate.tool.hbm2ddl.UniqueConstraintSchemaUpdateStrategy 50 interpret - Interpreting UniqueConstraintSchemaUpdateStrategy from setting : null
+30 Jun 2025 10:42:36,819 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 192 toMetaDataObjectName - Normalizing identifier quoting for object name [participants]
+30 Jun 2025 10:42:36,819 TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl 154 toMetaDataText - Rendering unquoted identifier [participants] in mixed case for use in DatabaseMetaData
+30 Jun 2025 10:42:36,819 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform]
+30 Jun 2025 10:42:36,819 DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 43 initiateService - No JtaPlatform was specified, checking resolver
+30 Jun 2025 10:42:36,819 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatformResolver]
+30 Jun 2025 10:42:36,821 DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformResolverInitiator 33 initiateService - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+30 Jun 2025 10:42:36,829 DEBUG org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver 137 resolveJtaPlatform - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 Jun 2025 10:42:36,829 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30 Jun 2025 10:42:36,831 DEBUG org.hibernate.query.spi.NamedQueryRepository 171 checkNamedQueries - Checking 0 named HQL queries
+30 Jun 2025 10:42:36,831 DEBUG org.hibernate.query.spi.NamedQueryRepository 185 checkNamedQueries - Checking 0 named SQL queries
+30 Jun 2025 10:42:36,837 DEBUG org.hibernate.service.internal.SessionFactoryServiceRegistryImpl 92 getService - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+30 Jun 2025 10:42:36,842 TRACE org.hibernate.type.spi.TypeConfiguration 202 sessionFactoryCreated - Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@60325987] for TypeConfiguration
+30 Jun 2025 10:42:36,845 DEBUG org.hibernate.internal.SessionFactoryRegistry 51 <init> - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@63f9b562
+30 Jun 2025 10:42:36,845 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl 233 initializeService - Initializing service [role=org.hibernate.engine.jndi.spi.JndiService]
+30 Jun 2025 10:42:36,848 DEBUG org.hibernate.internal.SessionFactoryRegistry 73 addSessionFactory - Registering SessionFactory: 622edafb-e9b3-454c-93f8-a67fd49a55f7 (<unnamed>)
+30 Jun 2025 10:42:36,848 DEBUG org.hibernate.internal.SessionFactoryRegistry 80 addSessionFactory - Not binding SessionFactory to JNDI, no JNDI name configured
+30 Jun 2025 10:42:36,854 INFO  com.ubb.repository.jdbc.RaceDBRepository 25 <init> - Initializing RaceDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db} 
+30 Jun 2025 10:42:36,856 INFO  com.ubb.repository.jdbc.RaceEntryDBRepository 31 <init> - Initializing RaceEntryDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db} 
+30 Jun 2025 10:42:36,858 INFO  com.ubb.repository.jdbc.UserDBRepository 23 <init> - Initializing UserDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db} 
+30 Jun 2025 10:42:36,858 INFO  com.ubb.repository.jdbc.TeamDBRepository 23 <init> - Initializing TeamDBRepository with properties: {server.port=55556, jdbc.url=jdbc:sqlite:/Users/Razva/Downloads/lab06/bikeContest.db} 
+30 Jun 2025 10:43:05,909 DEBUG org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections 284 validate - Connection pool now considered primed; min-size will be maintained
